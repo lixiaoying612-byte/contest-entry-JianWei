@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="见微，你的市场洞察助手。系统演示视频。">
+  <title>见微 · 演示视频</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { background: #070a10; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: 16px;
+    }
+    main { width: min(1440px, 100%); }
+    video {
+      display: block;
+      width: 100%;
+      max-height: calc(100vh - 32px);
+      max-height: calc(100dvh - 32px);
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      background: #000;
+      border-radius: 8px;
+      box-shadow: 0 20px 80px #0008;
+    }
+    video:focus-visible { outline: 2px solid #8abfff; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main aria-label="见微演示视频">
+    <video controls playsinline preload="metadata" aria-label="见微演示视频" src="./07_演示视频.mp4">
+      当前浏览器不支持视频播放，请使用新版浏览器，或<a href="./07_演示视频.mp4">打开演示视频</a>。
+    </video>
+  </main>
+</body>
+</html>
