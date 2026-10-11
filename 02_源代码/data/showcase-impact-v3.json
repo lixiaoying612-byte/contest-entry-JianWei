@@ -1,0 +1,1196 @@
+{
+  "rule_version": "alert-rules-20261004-v3",
+  "reviewed_at": "2026-10-04T15:54:12.211245+00:00",
+  "origin": "codex_session",
+  "note": "仅供相同正文、主张和已加入阶段的有限案例答复；不自动推广新新闻",
+  "items": [
+    {
+      "case_id": "hengrui",
+      "step": 0,
+      "material_hashes": {
+        "train-47613": "a7eaf79d04f6c022700e082e1b4285ded29450900ae286e8e7d2677dcaf76b16"
+      },
+      "assessments": [
+        {
+          "target": "恒瑞医药",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F07",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "transmitted",
+              "refs": [
+                0
+              ],
+              "reason": "SHR-5421获准开展指定适应症研究，属于研发路径进展；没有上市或疗效结论。"
+            },
+            "pathway": "SHR-5421获准开展指定适应症研究，属于研发路径进展；没有上市或疗效结论。",
+            "dimensions": {
+              "K": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "临床许可、实质数据与商业准入分别分档"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "获准开展研究"
+              },
+              "T": {
+                "lower": 5,
+                "upper": 5,
+                "refs": [
+                  0
+                ],
+                "reason": "例行进展或中长期目标，没有紧迫业务障碍或有效截止窗口"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "缺少该事项相对于对象既有业务的同口径规模；M10为定性档，不代表已知占比"
+            ],
+            "next_observation": {
+              "text": "实际入组、试验结果及后续监管结论"
+            },
+            "fact_state": {
+              "phase": "clinical_permission",
+              "status": "occurred",
+              "values": {
+                "matter": "shr5421",
+                "object": "恒瑞医药"
+              }
+            }
+          },
+          "claim_texts": [
+            "报道转述：SHR-5421获准开展多发性骨髓瘤临床研究。"
+          ],
+          "quotes": [
+            {
+              "material": "train-47613",
+              "document_sha": "a7eaf79d04f6c022700e082e1b4285ded29450900ae286e8e7d2677dcaf76b16",
+              "quote": "同意该药品单药在多发性骨髓瘤中开展临床研究。",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "initial",
+            "substantive": true,
+            "refs": [
+              0
+            ],
+            "reason": "此回放范围内首次出现已审阅事项"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "hengrui",
+      "step": 2,
+      "material_hashes": {
+        "train-101112": "29f410446e8ddf58d8241de270b1f62fd138420cc9a04f9757d88a6d126b0ed1"
+      },
+      "assessments": [
+        {
+          "target": "恒瑞医药",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F07",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "transmitted",
+              "refs": [
+                0
+              ],
+              "reason": "HRS-1635临床许可允许继续研发；不把B细胞肿瘤市场规模当公司收入。"
+            },
+            "pathway": "HRS-1635临床许可允许继续研发；不把B细胞肿瘤市场规模当公司收入。",
+            "dimensions": {
+              "K": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "临床许可、实质数据与商业准入分别分档"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "获准开展研究"
+              },
+              "T": {
+                "lower": 5,
+                "upper": 5,
+                "refs": [
+                  0
+                ],
+                "reason": "例行进展或中长期目标，没有紧迫业务障碍或有效截止窗口"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "缺少该事项相对于对象既有业务的同口径规模；M10为定性档，不代表已知占比"
+            ],
+            "next_observation": {
+              "text": "试验启动与对应适应症结果"
+            },
+            "fact_state": {
+              "phase": "clinical_permission",
+              "status": "occurred",
+              "values": {
+                "matter": "hrs1635",
+                "object": "恒瑞医药"
+              }
+            }
+          },
+          "claim_texts": [
+            "报道转述：HRS-1635片获准在B细胞恶性肿瘤患者中开展临床研究。"
+          ],
+          "quotes": [
+            {
+              "material": "train-101112",
+              "document_sha": "29f410446e8ddf58d8241de270b1f62fd138420cc9a04f9757d88a6d126b0ed1",
+              "quote": "同意本品单药在B细胞恶性肿瘤患者中开展临床研究",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "stage",
+            "substantive": true,
+            "refs": [
+              0
+            ],
+            "reason": "此回放范围内首次出现已审阅事项"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "mt-marion",
+      "step": 0,
+      "material_hashes": {
+        "mt-fid": "9708960c0498dbb4cc8e547fa741d12d6dabc17f72e3b6be3eca66d9756d12c4"
+      },
+      "assessments": [
+        {
+          "target": "赣锋锂业",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F04",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "transmitted",
+              "refs": [
+                0,
+                1
+              ],
+              "reason": "地下开发与浮选扩建已形成投资决定；建设与产能提升是目标，未确认实际产量或赣锋利润。"
+            },
+            "pathway": "地下开发与浮选扩建已形成投资决定；建设与产能提升是目标，未确认实际产量或赣锋利润。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "建设或关键执行条件变化；区分规划、批准与可运营"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 15,
+                "upper": 15,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "已披露最终投资决定，实际开工尚待后续材料"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "关键投资安排形成，影响当前研究路径；没有迫近处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "缺少该事项相对于对象既有业务的同口径规模；M10为定性档，不代表已知占比"
+            ],
+            "next_observation": {
+              "text": "地下开发实际启动、产能兑现和赣锋权益口径"
+            },
+            "fact_state": {
+              "phase": "investment_decided",
+              "status": "planned",
+              "values": {
+                "matter": "mt-marion",
+                "object": "赣锋锂业"
+              }
+            }
+          },
+          "claim_texts": [
+            "Mt Marion披露扩建总资本投资4.90亿（原文“$”，按项目100%口径），计划分布在FY27和FY28；原文节选未明确币种。",
+            "项目预计将装机产能从约500ktpa SC6提升至600ktpa SC6，属于目标而非已实现产量。"
+          ],
+          "quotes": [
+            {
+              "material": "mt-fid",
+              "document_sha": "9708960c0498dbb4cc8e547fa741d12d6dabc17f72e3b6be3eca66d9756d12c4",
+              "quote": "represents a total capital investment of $490 million (100% basis), to be deployed across FY27 and FY28.",
+              "section": "body"
+            },
+            {
+              "material": "mt-fid",
+              "document_sha": "9708960c0498dbb4cc8e547fa741d12d6dabc17f72e3b6be3eca66d9756d12c4",
+              "quote": "increased installed capacity from ~500ktpa SC6 to 600ktpa SC6",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "initial",
+            "substantive": true,
+            "refs": [
+              0,
+              1
+            ],
+            "reason": "此回放范围内首次出现已审阅事项"
+          }
+        },
+        {
+          "target": "Mt Marion项目",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F04",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "direct",
+              "refs": [
+                0,
+                1
+              ],
+              "reason": "地下开发与浮选扩建已形成投资决定；建设与产能提升是目标，未确认实际产量或赣锋利润。"
+            },
+            "pathway": "地下开发与浮选扩建已形成投资决定；建设与产能提升是目标，未确认实际产量或赣锋利润。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "建设或关键执行条件变化；区分规划、批准与可运营"
+              },
+              "M": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "目标装机由约500至600，同口径增加约20%；仅适用于项目视角"
+              },
+              "S": {
+                "lower": 15,
+                "upper": 15,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "已披露最终投资决定，实际开工尚待后续材料"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "关键投资安排形成，影响当前研究路径；没有迫近处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [],
+            "next_observation": {
+              "text": "地下开发实际启动、产能兑现和赣锋权益口径"
+            },
+            "fact_state": {
+              "phase": "investment_decided",
+              "status": "planned",
+              "values": {
+                "matter": "mt-marion",
+                "object": "Mt Marion项目"
+              }
+            },
+            "measurement": {
+              "numerator": 100,
+              "denominator": 500,
+              "denominator_kind": "before_event",
+              "unit": "ktpa SC6",
+              "period": "投资决定披露时的装机与目标",
+              "equity_basis": "项目100%口径",
+              "scope": "Mt Marion项目装机",
+              "reason": "600减约500为目标增量100，并非已实现产量",
+              "refs": [
+                1
+              ]
+            }
+          },
+          "claim_texts": [
+            "Mt Marion披露扩建总资本投资4.90亿（原文“$”，按项目100%口径），计划分布在FY27和FY28；原文节选未明确币种。",
+            "项目预计将装机产能从约500ktpa SC6提升至600ktpa SC6，属于目标而非已实现产量。"
+          ],
+          "quotes": [
+            {
+              "material": "mt-fid",
+              "document_sha": "9708960c0498dbb4cc8e547fa741d12d6dabc17f72e3b6be3eca66d9756d12c4",
+              "quote": "represents a total capital investment of $490 million (100% basis), to be deployed across FY27 and FY28.",
+              "section": "body"
+            },
+            {
+              "material": "mt-fid",
+              "document_sha": "9708960c0498dbb4cc8e547fa741d12d6dabc17f72e3b6be3eca66d9756d12c4",
+              "quote": "increased installed capacity from ~500ktpa SC6 to 600ktpa SC6",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "initial",
+            "substantive": true,
+            "refs": [
+              0,
+              1
+            ],
+            "reason": "此回放范围内首次出现已审阅事项"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "mt-marion",
+      "step": 1,
+      "material_hashes": {
+        "mt-contractor": "ff49959f5ca76d12905cc3191f50c915ef9792b876eeab23678d6d6f7d8a5328"
+      },
+      "assessments": [
+        {
+          "target": "赣锋锂业",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F04",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "transmitted",
+              "refs": [
+                0,
+                1
+              ],
+              "reason": "地下采矿承包商已落实，改善项目执行条件；尚不能推出实际产量或赣锋利润增加。"
+            },
+            "pathway": "地下采矿承包商已落实，改善项目执行条件；尚不能推出实际产量或赣锋利润增加。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "建设或关键执行条件变化；区分规划、批准与可运营"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 15,
+                "upper": 15,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "承包商任命与投资决定已落实，地下开工仍预期"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "本次关键进展影响当期研究路径，没有已知五个交易日内处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "缺少该事项相对于对象既有业务的同口径规模；M10为定性档，不代表已知占比"
+            ],
+            "next_observation": {
+              "text": "地下开发实际启动、产能兑现和赣锋权益口径"
+            },
+            "fact_state": {
+              "phase": "contractor_appointed",
+              "status": "occurred",
+              "values": {
+                "matter": "mt-marion",
+                "object": "赣锋锂业"
+              }
+            }
+          },
+          "claim_texts": [
+            "MinRes已任命Macmahon为Mt Marion地下采矿承包商。",
+            "地下开发预计FY27第一季度开始，FY28起拟联合露天与地下运营；尚非投产确认。"
+          ],
+          "quotes": [
+            {
+              "material": "mt-contractor",
+              "document_sha": "ff49959f5ca76d12905cc3191f50c915ef9792b876eeab23678d6d6f7d8a5328",
+              "quote": "MinRes appoints Macmahon as underground mining contractor at Mt Marion",
+              "section": "title"
+            },
+            {
+              "material": "mt-contractor",
+              "document_sha": "ff49959f5ca76d12905cc3191f50c915ef9792b876eeab23678d6d6f7d8a5328",
+              "quote": "Underground development is expected to commence in the first quarter of FY27, with Mt Marion operating as a combined open pit and underground operation from FY28.",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "stage",
+            "substantive": true,
+            "refs": [
+              0,
+              1
+            ],
+            "reason": "关键承包商落实，更新同一事项"
+          }
+        },
+        {
+          "target": "Mt Marion项目",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F04",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "direct",
+              "refs": [
+                0,
+                1
+              ],
+              "reason": "承包商落实直接作用于Mt Marion地下开发；属于项目重要执行条件，产能扩建目标尚未实现。"
+            },
+            "pathway": "承包商落实直接作用于Mt Marion地下开发；属于项目重要执行条件，产能扩建目标尚未实现。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "建设或关键执行条件变化；区分规划、批准与可运营"
+              },
+              "M": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "地下开发关系项目主要生产路径，按项目重要业务M20；未将项目范围当赣锋集团规模"
+              },
+              "S": {
+                "lower": 15,
+                "upper": 15,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "承包商任命与投资决定已落实，地下开工仍预期"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "本次关键进展影响当期研究路径，没有已知五个交易日内处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [],
+            "next_observation": {
+              "text": "地下开发实际启动、产能兑现和赣锋权益口径"
+            },
+            "fact_state": {
+              "phase": "contractor_appointed",
+              "status": "occurred",
+              "values": {
+                "matter": "mt-marion",
+                "object": "Mt Marion项目"
+              }
+            }
+          },
+          "claim_texts": [
+            "MinRes已任命Macmahon为Mt Marion地下采矿承包商。",
+            "地下开发预计FY27第一季度开始，FY28起拟联合露天与地下运营；尚非投产确认。"
+          ],
+          "quotes": [
+            {
+              "material": "mt-contractor",
+              "document_sha": "ff49959f5ca76d12905cc3191f50c915ef9792b876eeab23678d6d6f7d8a5328",
+              "quote": "MinRes appoints Macmahon as underground mining contractor at Mt Marion",
+              "section": "title"
+            },
+            {
+              "material": "mt-contractor",
+              "document_sha": "ff49959f5ca76d12905cc3191f50c915ef9792b876eeab23678d6d6f7d8a5328",
+              "quote": "Underground development is expected to commence in the first quarter of FY27, with Mt Marion operating as a combined open pit and underground operation from FY28.",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "stage",
+            "substantive": true,
+            "refs": [
+              0,
+              1
+            ],
+            "reason": "关键承包商落实，更新同一事项"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "blue",
+      "step": 0,
+      "material_hashes": {
+        "train-5093": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6"
+      },
+      "assessments": [
+        {
+          "target": "赛力斯",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F02",
+            "direction": "uncertain",
+            "object_relation": {
+              "kind": "direct",
+              "refs": [
+                0,
+                1
+              ],
+              "reason": "增资完成后控制权及核算方式拟变化；投资收益的金额和确认条件仍待披露。"
+            },
+            "pathway": "增资完成后控制权及核算方式拟变化；投资收益的金额和确认条件仍待披露。",
+            "dimensions": {
+              "K": {
+                "lower": 30,
+                "upper": 30,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "已签署涉及控制权路径的安排，待完成条件兑现"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "具体增资协议已签署，约定分期出资；不当成已交割"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "本次关键进展影响当期研究路径，没有已知五个交易日内处置截止"
+              }
+            },
+            "priority_rules": [
+              {
+                "rule": "H1",
+                "condition": "control_transfer_formal",
+                "refs": [
+                  1
+                ],
+                "reason": "具体控制权交易协议阶段，非口头意向"
+              }
+            ],
+            "missing": [
+              "出资与交割尚待完成材料；未确认收入或投资收益"
+            ],
+            "next_observation": {
+              "text": "各方交割、实缴以及控制权与会计处理公告"
+            },
+            "fact_state": {
+              "phase": "investment_agreement",
+              "status": "planned",
+              "values": {
+                "matter": "blue",
+                "object": "赛力斯"
+              }
+            }
+          },
+          "claim_texts": [
+            "报道转述：蓝电科技拟获增资约66.71亿元，参与方包含问鼎投资、博俊科技及星宇股份。",
+            "报道转述：完成本轮增资后赛力斯将不再拥有蓝电科技控制权；这是附完成条件的安排。"
+          ],
+          "quotes": [
+            {
+              "material": "train-5093",
+              "document_sha": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6",
+              "quote": "公司旗下重庆蓝电科技有限公司（以下简称蓝电科技）拟获增资约66.71亿元，参与方新增宁波梅山保税港区问鼎投资有限公司（以下简称问鼎投资）、博俊科技、星宇股份。",
+              "section": "body"
+            },
+            {
+              "material": "train-5093",
+              "document_sha": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6",
+              "quote": "蓝电科技完成本轮增资扩股，公司将不再拥有对蓝电科技的控制权。",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "initial",
+            "substantive": true,
+            "refs": [
+              0,
+              1
+            ],
+            "reason": "此回放范围内首次出现已审阅事项"
+          }
+        },
+        {
+          "target": "宁德时代",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F02",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "transmitted",
+              "refs": [
+                0,
+                1
+              ],
+              "reason": "问鼎投资拟参股蓝电科技，可能加深产业链联系；不能直接推定产生电池订单或收入。"
+            },
+            "pathway": "问鼎投资拟参股蓝电科技，可能加深产业链联系；不能直接推定产生电池订单或收入。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "交易安排或控制结构变化；不按媒体声量或交易金额直接升档"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "具体增资协议已签署，约定分期出资；不当成已交割"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "本次关键进展影响当期研究路径，没有已知五个交易日内处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "出资与交割尚待完成材料；未确认收入或投资收益"
+            ],
+            "next_observation": {
+              "text": "各方交割、实缴以及控制权与会计处理公告"
+            },
+            "fact_state": {
+              "phase": "investment_agreement",
+              "status": "planned",
+              "values": {
+                "matter": "blue",
+                "object": "宁德时代"
+              }
+            }
+          },
+          "claim_texts": [
+            "报道转述：蓝电科技拟获增资约66.71亿元，参与方包含问鼎投资、博俊科技及星宇股份。",
+            "报道转述：完成本轮增资后赛力斯将不再拥有蓝电科技控制权；这是附完成条件的安排。"
+          ],
+          "quotes": [
+            {
+              "material": "train-5093",
+              "document_sha": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6",
+              "quote": "公司旗下重庆蓝电科技有限公司（以下简称蓝电科技）拟获增资约66.71亿元，参与方新增宁波梅山保税港区问鼎投资有限公司（以下简称问鼎投资）、博俊科技、星宇股份。",
+              "section": "body"
+            },
+            {
+              "material": "train-5093",
+              "document_sha": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6",
+              "quote": "蓝电科技完成本轮增资扩股，公司将不再拥有对蓝电科技的控制权。",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "initial",
+            "substantive": true,
+            "refs": [
+              0,
+              1
+            ],
+            "reason": "此回放范围内首次出现已审阅事项"
+          }
+        },
+        {
+          "target": "博俊科技",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F02",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "direct",
+              "refs": [
+                0,
+                1
+              ],
+              "reason": "拟投资蓝电科技属于产业链布局；投资尚需按约实施，不能据此确认新增配套收入。"
+            },
+            "pathway": "拟投资蓝电科技属于产业链布局；投资尚需按约实施，不能据此确认新增配套收入。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "交易安排或控制结构变化；不按媒体声量或交易金额直接升档"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "具体增资协议已签署，约定分期出资；不当成已交割"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0,
+                  1
+                ],
+                "reason": "本次关键进展影响当期研究路径，没有已知五个交易日内处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "出资与交割尚待完成材料；未确认收入或投资收益"
+            ],
+            "next_observation": {
+              "text": "各方交割、实缴以及控制权与会计处理公告"
+            },
+            "fact_state": {
+              "phase": "investment_agreement",
+              "status": "planned",
+              "values": {
+                "matter": "blue",
+                "object": "博俊科技"
+              }
+            }
+          },
+          "claim_texts": [
+            "报道转述：蓝电科技拟获增资约66.71亿元，参与方包含问鼎投资、博俊科技及星宇股份。",
+            "报道转述：完成本轮增资后赛力斯将不再拥有蓝电科技控制权；这是附完成条件的安排。"
+          ],
+          "quotes": [
+            {
+              "material": "train-5093",
+              "document_sha": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6",
+              "quote": "公司旗下重庆蓝电科技有限公司（以下简称蓝电科技）拟获增资约66.71亿元，参与方新增宁波梅山保税港区问鼎投资有限公司（以下简称问鼎投资）、博俊科技、星宇股份。",
+              "section": "body"
+            },
+            {
+              "material": "train-5093",
+              "document_sha": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6",
+              "quote": "蓝电科技完成本轮增资扩股，公司将不再拥有对蓝电科技的控制权。",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "initial",
+            "substantive": true,
+            "refs": [
+              0,
+              1
+            ],
+            "reason": "此回放范围内首次出现已审阅事项"
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "blue",
+      "step": 1,
+      "material_hashes": {
+        "bojun": "c13dd074658d25024548edca8416da7f695259918129980d07d7e64148c88a4c"
+      },
+      "assessments": [
+        {
+          "target": "赛力斯",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F02",
+            "direction": "uncertain",
+            "object_relation": {
+              "kind": "uncertain",
+              "refs": [
+                0
+              ],
+              "reason": "登记进展属于已报道交易的后续线索；赛力斯当前实际权益和财务影响仍需本方材料。"
+            },
+            "pathway": "登记进展属于已报道交易的后续线索；赛力斯当前实际权益和财务影响仍需本方材料。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0
+                ],
+                "reason": "交易安排或控制结构变化；不按媒体声量或交易金额直接升档"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 20,
+                "upper": 25,
+                "refs": [
+                  0
+                ],
+                "reason": "已完成登记但整体出资及交易完成范围未核清",
+                "gap": "已完成登记但整体出资及交易完成范围未核清；上下档边界仍待补证"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "本次关键进展影响当期研究路径，没有已知五个交易日内处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "当前原始登记说明未独立确认赛力斯的最新权益、出资及完成范围",
+              "缺少该事项相对于对象既有业务的同口径规模；M10为定性档，不代表已知占比"
+            ],
+            "next_observation": {
+              "text": "各方交割、实缴以及控制权与会计处理公告"
+            },
+            "fact_state": {
+              "phase": "registration_changed",
+              "status": "occurred",
+              "values": {
+                "matter": "blue",
+                "object": "赛力斯"
+              }
+            }
+          },
+          "claim_texts": [
+            "博俊披露蓝电科技已完成工商变更并更名为重庆赛豆科技；该表述不证明全部增资资金到账。"
+          ],
+          "quotes": [
+            {
+              "material": "bojun",
+              "document_sha": "c13dd074658d25024548edca8416da7f695259918129980d07d7e64148c88a4c",
+              "quote": "目前，蓝电科技已完成工商变更登记，\n正式更名为重庆赛豆科技有限公司。",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "observation_only",
+            "substantive": false,
+            "refs": [
+              0
+            ],
+            "reason": "工商登记材料不等同整笔交易完成，不再播报一次交易成功"
+          }
+        },
+        {
+          "target": "宁德时代",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F02",
+            "direction": "uncertain",
+            "object_relation": {
+              "kind": "uncertain",
+              "refs": [
+                0
+              ],
+              "reason": "登记进展属于已报道交易的后续线索；宁德时代当前实际权益和财务影响仍需本方材料。"
+            },
+            "pathway": "登记进展属于已报道交易的后续线索；宁德时代当前实际权益和财务影响仍需本方材料。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0
+                ],
+                "reason": "交易安排或控制结构变化；不按媒体声量或交易金额直接升档"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 20,
+                "upper": 25,
+                "refs": [
+                  0
+                ],
+                "reason": "已完成登记但整体出资及交易完成范围未核清",
+                "gap": "已完成登记但整体出资及交易完成范围未核清；上下档边界仍待补证"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "本次关键进展影响当期研究路径，没有已知五个交易日内处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "当前原始登记说明未独立确认宁德时代的最新权益、出资及完成范围",
+              "缺少该事项相对于对象既有业务的同口径规模；M10为定性档，不代表已知占比"
+            ],
+            "next_observation": {
+              "text": "各方交割、实缴以及控制权与会计处理公告"
+            },
+            "fact_state": {
+              "phase": "registration_changed",
+              "status": "occurred",
+              "values": {
+                "matter": "blue",
+                "object": "宁德时代"
+              }
+            }
+          },
+          "claim_texts": [
+            "博俊披露蓝电科技已完成工商变更并更名为重庆赛豆科技；该表述不证明全部增资资金到账。"
+          ],
+          "quotes": [
+            {
+              "material": "bojun",
+              "document_sha": "c13dd074658d25024548edca8416da7f695259918129980d07d7e64148c88a4c",
+              "quote": "目前，蓝电科技已完成工商变更登记，\n正式更名为重庆赛豆科技有限公司。",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "observation_only",
+            "substantive": false,
+            "refs": [
+              0
+            ],
+            "reason": "工商登记材料不等同整笔交易完成，不再播报一次交易成功"
+          }
+        },
+        {
+          "target": "博俊科技",
+          "features": {
+            "schema_version": "impact-features-v3",
+            "rule_version": "alert-rules-20261004-v3",
+            "family": "F02",
+            "direction": "positive",
+            "object_relation": {
+              "kind": "direct",
+              "refs": [
+                0
+              ],
+              "reason": "博俊原始投资者关系记录确认产业链投资布局及登记进展；资金到账、配套订单及投资收益尚不能确定。"
+            },
+            "pathway": "博俊原始投资者关系记录确认产业链投资布局及登记进展；资金到账、配套订单及投资收益尚不能确定。",
+            "dimensions": {
+              "K": {
+                "lower": 20,
+                "upper": 20,
+                "refs": [
+                  0
+                ],
+                "reason": "交易安排或控制结构变化；不按媒体声量或交易金额直接升档"
+              },
+              "M": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "仅覆盖指定产品、项目或政策适用业务；公司或行业同口径占比未知，不编造比例"
+              },
+              "S": {
+                "lower": 20,
+                "upper": 25,
+                "refs": [
+                  0
+                ],
+                "reason": "已完成登记但整体出资及交易完成范围未核清",
+                "gap": "已完成登记但整体出资及交易完成范围未核清；上下档边界仍待补证"
+              },
+              "T": {
+                "lower": 10,
+                "upper": 10,
+                "refs": [
+                  0
+                ],
+                "reason": "本次关键进展影响当期研究路径，没有已知五个交易日内处置截止"
+              }
+            },
+            "priority_rules": [],
+            "missing": [
+              "缺少该事项相对于对象既有业务的同口径规模；M10为定性档，不代表已知占比"
+            ],
+            "next_observation": {
+              "text": "各方交割、实缴以及控制权与会计处理公告"
+            },
+            "fact_state": {
+              "phase": "registration_changed",
+              "status": "occurred",
+              "values": {
+                "matter": "blue",
+                "object": "博俊科技"
+              }
+            }
+          },
+          "claim_texts": [
+            "博俊披露蓝电科技已完成工商变更并更名为重庆赛豆科技；该表述不证明全部增资资金到账。"
+          ],
+          "quotes": [
+            {
+              "material": "bojun",
+              "document_sha": "c13dd074658d25024548edca8416da7f695259918129980d07d7e64148c88a4c",
+              "quote": "目前，蓝电科技已完成工商变更登记，\n正式更名为重庆赛豆科技有限公司。",
+              "section": "body"
+            }
+          ],
+          "change": {
+            "kind": "observation_only",
+            "substantive": false,
+            "refs": [
+              0
+            ],
+            "reason": "工商登记材料不等同整笔交易完成，不再播报一次交易成功"
+          }
+        }
+      ]
+    }
+  ]
+}

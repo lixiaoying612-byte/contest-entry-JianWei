@@ -1,0 +1,334 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENG032 named A v1",
+  "description": "Reversible representation of ENG009 A only; structural validity does not establish semantic correctness.",
+  "type": "object",
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "summary": {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "participants": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "role": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[TB][1-9][0-9]*$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "name",
+                "role",
+                "evidence_refs"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "status": {
+            "type": "object",
+            "properties": {
+              "phase": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "\\S"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "polarity": {
+                "type": "string",
+                "enum": [
+                  "affirmed",
+                  "negated",
+                  "unclear"
+                ]
+              },
+              "mode": {
+                "type": "string",
+                "enum": [
+                  "asserted",
+                  "planned",
+                  "forecast",
+                  "conditional",
+                  "question",
+                  "unclear"
+                ]
+              },
+              "attributed_to": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "\\S"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "context": {
+                "type": "string",
+                "enum": [
+                  "focus",
+                  "background",
+                  "unclear"
+                ]
+              },
+              "evidence_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[TB][1-9][0-9]*$"
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "phase",
+              "polarity",
+              "mode",
+              "attributed_to",
+              "context",
+              "evidence_refs"
+            ],
+            "additionalProperties": false
+          },
+          "times": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "role": {
+                  "type": "string",
+                  "enum": [
+                    "occurrence",
+                    "effective",
+                    "deadline",
+                    "observation",
+                    "unspecified"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "normalized": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "\\S"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "precision": {
+                  "type": "string",
+                  "enum": [
+                    "year",
+                    "month",
+                    "day",
+                    "datetime",
+                    "interval",
+                    "relative",
+                    "unknown"
+                  ]
+                },
+                "basis": {
+                  "type": "string",
+                  "enum": [
+                    "explicit",
+                    "document_context",
+                    "publication_time",
+                    "unresolved"
+                  ]
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[TB][1-9][0-9]*$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "role",
+                "text",
+                "normalized",
+                "precision",
+                "basis",
+                "evidence_refs"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "value_text": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[TB][1-9][0-9]*$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "name",
+                "value_text",
+                "evidence_refs"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "impact_mentions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "target_name": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "direction": {
+                  "type": "string",
+                  "enum": [
+                    "positive",
+                    "negative",
+                    "neutral",
+                    "mixed",
+                    "unclear"
+                  ]
+                },
+                "mode": {
+                  "type": "string",
+                  "enum": [
+                    "asserted",
+                    "planned",
+                    "forecast",
+                    "conditional",
+                    "question",
+                    "unclear"
+                  ]
+                },
+                "attributed_to": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "\\S"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "evidence_ref": {
+                  "type": "string",
+                  "pattern": "^[TB][1-9][0-9]*$"
+                }
+              },
+              "required": [
+                "target_name",
+                "direction",
+                "mode",
+                "attributed_to",
+                "evidence_ref"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[TB][1-9][0-9]*$"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "uncertainties": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "\\S"
+            }
+          }
+        },
+        "required": [
+          "summary",
+          "status",
+          "evidence_refs"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "document_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "enum": [
+              "no_financial_mention",
+              "input_limited",
+              "conflicting_statements",
+              "other"
+            ]
+          },
+          "message": {
+            "type": "string",
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "code",
+          "message"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "events"
+  ],
+  "additionalProperties": false
+}

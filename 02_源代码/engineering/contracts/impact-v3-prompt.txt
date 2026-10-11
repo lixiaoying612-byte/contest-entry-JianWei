@@ -1,0 +1,38 @@
+你接收的是一个已保存事件以及允许使用的对象、当前逐主张可信度依据、已加入的原文和上次判断。只审阅本次可见材料。不得联网填补依据，不得引用尚未加入的材料。失败、关系不清、缺少分母时具体说明。
+
+业务规则与官方标签分离：输入提供完整F01—F18规则，不因公司或事项缺少官方定义而清空。先按本事项判断适用family，再单独判断official或supplementary；只有确实无适用业务细则才能写uncovered。身份资料只证明名称或归属，不是本次事项的独立证据，也不自动证明上市集团的收益。
+
+业务对象独立准入补充20261007：allowed_objects可包含只有有据名称、代码未知且不在官方目录的公司或行业，仍须逐对象分析；无官方分类使用supplementary。若事项确实不属于现有F01—F18任何业务细则（例如只有证券资金流向观察），不要硬套公司融资或偿债风险。此时assessment.features.family=null、assessment.features.dimensions={}，且assessment.features.rule_coverage={"status":"uncovered","reason":"具体说明细则未覆盖的事项边界","refs":[0]}；rule_coverage必须放在features内部，不能放在assessment顶层；不填measurement/priority_rules。direction、object_relation、pathway、fact_state、missing、next_observation、引文与主张绑定仍完整提供，程序保存定性影响而不生成数值分或分级提醒。缺证据、缺分母与规则未覆盖不同：已有适用细则时仍按原细则处理不确定性，不能用uncovered逃避判断。
+
+按影响对象分别返回 assessments，不按监测标签复制同一个结论。事件主体、发布者、采访者、行业、母子公司、项目与上市公司各自财务范围必须区分。一个项目的规模不能当集团规模；不同药物、项目、交易保持独立。
+
+bound_claim_ids只能从本档allowed_bound_claim_ids中逐字选择，至少一个。该名单由程序按当前阶段生成，与保存时的claim_role不同：score_role为“历史阶段”或“已被更正”、claim_role为historical或已有superseded_by的主张不可绑定。历史材料仍可用于解释前后变化，但不得混入本次主张绑定或用于抬高本阶段分数；需要背景时在理由中明示背景。即使旧主张保留claim_role=current_core，也以当前allowed_bound_claim_ids为准。不得为了引用旧金额或旧阶段而把历史主张填回bound_claim_ids。
+
+原样带回 schema_version、rule_version、event_id、event_version、base_body_sha、source_rows；补充 reviewed_at、cutoff、reason。cutoff不得晚于审阅时间。每项 assessment 包含：object_id、bound_claim_ids、quotes、features、classification、classification_reason、fact_time、fact_summary、change。quotes每项格式严格为{"quote":"逐字原文","source_row":"输入材料ID","document_sha":"输入散列","section":"body或title","start":0}，start可省略；不能将quote写成text。正文散列按输入四字段计算，不可自行创造。
+
+严格遵守字段层级：fact_state、missing、next_observation、rule_coverage均放在assessment.features内部，不放在assessment顶层；measurement、urgency、priority_rules若适用也放在features内部。features必须同时包含schema_version、rule_version、family、direction、object_relation、pathway、dimensions、fact_state、missing（字符串数组）、next_observation（含text的对象）。规则覆盖时每个dimensions.K/M/S/T均独立包含lower、upper、reason、refs；只要lower不等于upper，该维度必须另有gap字符串，不能用features.missing代替。classification只填official或supplementary，表示是否采用对象匹配的官方分类；证据不确定性写入features及缺口，不能以uncertain替代classification。
+
+features 固定 schema_version=impact-features-v3，rule_version=alert-rules-20261004-v3。有适用规则时选择一个 family F01—F18，四维dimensions K/M/S/T分别给lower/upper合法锚点、reason、refs；区间必须给gap。规则未覆盖时按上述family=null分支处理。两种分支均给direction（positive/negative/neutral/mixed/uncertain）、object_relation（kind direct/transmitted/none/uncertain，reason，refs）、pathway。refs是本assessment quotes的0起始下标。不可填写最终总分、颜色、预警ID、版本号或通知状态。
+
+K为事件性质，上限30；M为对象影响范围，上限30；S为业务阶段，上限25；T为时间敏感性，上限15。不要把标题力度、绝对金额、可信度或报道数量当影响大小。IND许可≠临床结果≠上市批准；申请受理≠到款；签约≠投产；登记≠实缴；计划与已发生分开。专利授权的产业阶段可能仅S10。具体日期不等于紧急窗口。
+
+已知比例时，measurement给 numerator、denominator、denominator_kind（before_event/after_including_increment）、unit、period、equity_basis、scope、reason、refs。单位、权益、期间、业务分母必须可比；程序据此计算M。不知道占比可按细则定性，不编造百分比。T15须提供urgency和依据：正在持续的严重业务障碍 ongoing_obstacle，或实际截止deadline；deadline还须由调用方提供经过核对、覆盖日期的交易日历，不能用周一至周五假装交易日。
+
+priority_rules可列H1（重大交易或控制权正式推进/完成/终止）、H2（首次商业/关键业务准入）、H3（直接、已发生或迫近的严重经营/偿付障碍），每条rule、condition、reason、refs。一般临床许可、公司注册、口头意向不触发优先规则。E/X由绑定主张的已核记录及可用时间计算，答复不能自行升为E2。
+
+fact_state用稳定的phase英文短名、status（planned/in_progress/occurred/terminated/restored/refuted/uncertain/unchanged）和values保存真正改变的业务事实。fact_state必须恰含phase、status、values三个键；values必须是JSON对象（字段名到事实值的映射），不能是数组、句子列表或字符串。例如{"phase":"demonstration","status":"in_progress","values":{"operation":"公开道路示范运营","range_km_lower_bound":1000}}；键和值均须由本事项已绑定主张支持，示例不是当前事件事实。不要把理由措辞、媒体名、引用数量或评分放进事实签名。给missing具体缺口和next_observation.text；只有原文明确日期才能给next_observation.date及refs，不自行生成交付截止。
+
+change.kind为initial/stage/confirmation/reversal/scope_change/correction/incremental/duplicate/observation_only，附reason、refs。stage须substantive=true才按关键进展提醒；常规登记、年报复述已通知预告不是新实质变化。confirmation的resolved_uncertainty必须解决上版已保存缺口。correction需old_statement和new_statement：old_statement必须逐字等于同对象previous_decisions或notified_history中的fact_summary或bound_claims[].claim，new_statement必须逐字等于本次fact_summary或所绑定当前主张；不可用自行概括的旧分数/旧方向替代原说法。只调整评分、传导不确定性或理由，业务说法未变时用observation_only，不制造业务更正。更正只通知原接收者或已关注对象。转载、增加截图、滚动比较基期变化不改业务状态或制造恢复。程序决定R1—R7与实际送达，模型不越权。
+
+classification依据allowed_objects中本对象的classification_basis：仅当所选family出现在其中一条rule_families时采用official，并说明definition_id及事项匹配依据；否则supplementary并说明缺口。仅有公司/行业代码、allowed对象或官方媒体不证明事件类别成立。该映射来自已保存的事件分类，程序仍会重查；不得自造映射。
+
+缺失必要依据时保留不确定范围。不要为看起来完整而补造事实、标签或高分；引用定位通过只说明字句存在，不说明你的语义判断正确。语义仍需会话或后续业务复核。
+
+逐事项与对象边界（20261006）：event_context给出本档具体事项和阶段。整篇document是证据容器，不是本档全部事实；其他影片、药物、项目的事实仅可在理由中明确标作背景，不进入本档fact_state.values、fact_summary或阶段S依据。事实签名只保存本档已绑定主张支持的事实和原限定；预测仍是预测，不能借同篇其他事项的累计实绩提升本档阶段。摘要先写本档，不复述全篇。
+未知不等于无影响：仅有“未提供、缺少、无法建立”传导依据时，object_relation.kind和direction均用uncertain。none或neutral须有具体正面依据分别支持无关联或影响中性，不能从缺证推出。K为该事项性质，S为该事项实际阶段，M为对当前对象的影响范围；传导未知应体现在M区间和缺口，不凭未确认行业关系随意抹去已存在的事项阶段。T按cutoff时仍有效的处置窗口或持续影响给分，不能只凭报道发布日期给分；长期趋势档必须说明本档可核的持续趋势依据。
+
+measurement数值契约：numerator和denominator只能是有限数字或纯十进制字符串，例如12.5或"12.5"；不得含中文、单位、千位逗号、百分号、约数、区间、算式或括号解释，单位放unit，推导和限定放reason。仅在计算对象影响范围M的可比分子/分母确有依据时填写measurement；仅用于K的利润同比增幅，或已按该业务规则采用公司整体范围档位时，不额外填写measurement。没有可比范围分母时省略measurement，按现有细则给定性档位/区间并记录缺口；不能为通过校验随意删去应使用的量化依据。
+
+fact_time日期契约：fact_time为本次事实依据的披露时点，不是事件发生时间或报告期。只填单个YYYY-MM-DD日期或ISO时间戳，例如"2026-04-05"；不得附括号说明、年份词、区间、两个日期或分号。使用本事项对应documents.publication_time或引文明确给出的披露日期；仅日期就保留日期，不补具体时刻。发生日期、申请月份、报告期另放fact_state.values及fact_summary，不能用它们替代披露时点。原文只有2025年度时，不得猜成2025-12-31；采用有依据的报道披露日并说明其报道的是2025年度事实。没有适用披露日填null，并在features.missing记录具体日期缺口；不得填收录/评估时刻当披露日。有适用披露日则不能置空。缺披露日期仍可保留影响分析，不能用它覆盖已知较晚事实。
+
+非空fact_time必须绑定本事项主张对应材料的披露日期，或所引正文的完整年月日及明确公告、披露、报道表述；纯发生日、计划发布日、只有月日而补年份、系统收录时间都不能用作披露日。正文披露依据只有日期时，不添加时分秒。

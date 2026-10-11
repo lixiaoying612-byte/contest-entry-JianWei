@@ -1,0 +1,998 @@
+{
+  "seed": 2026100930,
+  "assessment": "conversation labels and separately recorded historical program runtime",
+  "source_prediction_sha256": "37cb8abc70aa67d3493a5a09cce93c25dfbe8dd77194fd1546f3f1d59ee29887",
+  "article_bodies_included": false,
+  "records": [
+    {
+      "id": "U01",
+      "reference": [
+        {
+          "sheet": "行业新闻",
+          "trading_code": null,
+          "secu_abbr": null,
+          "industry_code": "640700",
+          "industry_name": "自动化设备",
+          "event_name": "工业自动化政策支持变化",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "industry",
+          "target_code": "640700",
+          "target_name": "自动化设备",
+          "event_name": "工业自动化政策支持变化",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U02",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600879",
+          "secu_abbr": "航天电子",
+          "industry_code": "650100",
+          "industry_name": "航天装备Ⅱ",
+          "event_name": "商业航天与低空经济发展",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": null,
+          "target_name": "国电高科",
+          "event_name": "业务拓展",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "industry",
+          "target_code": "640700",
+          "target_name": "自动化设备",
+          "event_name": "工业自动化政策支持变化",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U03",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600098",
+          "secu_abbr": "广州发展",
+          "industry_code": "410100",
+          "industry_name": "电力",
+          "event_name": "重大项目投资建设",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "600098",
+          "target_name": "广州发展",
+          "event_name": "重大项目投资建设",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U04",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600941",
+          "secu_abbr": "中国移动",
+          "industry_code": "730100",
+          "industry_name": "通信服务",
+          "event_name": "产能布局调整",
+          "event_emotion": "正面"
+        },
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600941",
+          "secu_abbr": "中国移动",
+          "industry_code": "730100",
+          "industry_name": "通信服务",
+          "event_name": "关键技术突破",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "600941",
+          "target_name": "中国移动",
+          "event_name": "关键技术突破",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U05",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "000729",
+          "secu_abbr": "燕京啤酒",
+          "industry_code": "340600",
+          "industry_name": "非白酒",
+          "event_name": "结构升级",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "000729",
+          "target_name": "燕京啤酒",
+          "event_name": "结构升级",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U06",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600418",
+          "secu_abbr": "江淮汽车",
+          "industry_code": "280600",
+          "industry_name": "商用车",
+          "event_name": "公司战略调整",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "600418",
+          "target_name": "江淮汽车",
+          "event_name": "公司战略调整",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U07",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "000898",
+          "secu_abbr": "鞍钢股份",
+          "industry_code": "230400",
+          "industry_name": "普钢",
+          "event_name": "钢铁生产核心技术突破",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "000898",
+          "target_name": "鞍钢股份",
+          "event_name": "钢铁生产核心技术突破",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U08",
+      "reference": [
+        {
+          "sheet": "行业新闻",
+          "trading_code": null,
+          "secu_abbr": null,
+          "industry_code": "750300",
+          "industry_name": "炼化及贸易",
+          "event_name": "OPEC+产量政策变化",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "industry",
+          "target_code": "750300",
+          "target_name": "炼化及贸易",
+          "event_name": "OPEC+产量政策变化",
+          "emotion": "中性"
+        }
+      ]
+    },
+    {
+      "id": "U09",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "002594",
+          "secu_abbr": "比亚迪",
+          "industry_code": "280500",
+          "industry_name": "乘用车",
+          "event_name": "新车出海",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "002594",
+          "target_name": "比亚迪",
+          "event_name": "海外产能进展",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "company",
+          "target_code": "002594",
+          "target_name": "比亚迪",
+          "event_name": "新车出海",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U10",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "688208",
+          "secu_abbr": "道通科技",
+          "industry_code": "710100",
+          "industry_name": "计算机设备",
+          "event_name": "新业务拓展",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "688208",
+          "target_name": "道通科技",
+          "event_name": "新业务拓展",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U11",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "601995",
+          "secu_abbr": "中金公司",
+          "industry_code": "490100",
+          "industry_name": "证券Ⅱ",
+          "event_name": "资本市场运作",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "601995",
+          "target_name": "中金公司",
+          "event_name": "资本市场运作",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U12",
+      "reference": [
+        {
+          "sheet": "行业新闻",
+          "trading_code": null,
+          "secu_abbr": null,
+          "industry_code": "480300",
+          "industry_name": "股份制银行Ⅱ",
+          "event_name": "存款利率下调",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "industry",
+          "target_code": "480300",
+          "target_name": "股份制银行Ⅱ",
+          "event_name": "存款利率下调",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U13",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600000",
+          "secu_abbr": "浦发银行",
+          "industry_code": "480300",
+          "industry_name": "股份制银行Ⅱ",
+          "event_name": "数字化转型深化",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "600000",
+          "target_name": "浦发银行",
+          "event_name": "数字化转型深化",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "company",
+          "target_code": "601229",
+          "target_name": "上海银行",
+          "event_name": "数字化转型深化",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U14",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600938",
+          "secu_abbr": "中国海油",
+          "industry_code": "750100",
+          "industry_name": "油气开采Ⅱ",
+          "event_name": "地缘政治",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "600938",
+          "target_name": "中国海油",
+          "event_name": "地缘政治",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U15",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "300750",
+          "secu_abbr": "宁德时代",
+          "industry_code": "630700",
+          "industry_name": "电池",
+          "event_name": "动力电池产品迭代",
+          "event_emotion": "正面"
+        },
+        {
+          "sheet": "个股新闻",
+          "trading_code": "300750",
+          "secu_abbr": "宁德时代",
+          "industry_code": "630700",
+          "industry_name": "电池",
+          "event_name": "市场竞争",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "300750",
+          "target_name": "宁德时代",
+          "event_name": "市场竞争",
+          "emotion": "负面"
+        }
+      ]
+    },
+    {
+      "id": "U16",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "300750",
+          "secu_abbr": "宁德时代",
+          "industry_code": "630700",
+          "industry_name": "电池",
+          "event_name": "充换电基础设施完善",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "300750",
+          "target_name": "宁德时代",
+          "event_name": "充换电基础设施完善",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U17",
+      "reference": [
+        {
+          "sheet": "行业新闻",
+          "trading_code": null,
+          "secu_abbr": null,
+          "industry_code": "610100",
+          "industry_name": "水泥",
+          "event_name": "重大基建项目开发",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": null,
+          "target_name": "广州玉澍项目投资有限公司",
+          "event_name": "重大项目投资建设",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U18",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600104",
+          "secu_abbr": "上汽集团",
+          "industry_code": "280500",
+          "industry_name": "乘用车",
+          "event_name": "产品技术创新",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "600104",
+          "target_name": "上汽集团",
+          "event_name": "合资品牌战略",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U19",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "000333",
+          "secu_abbr": "美的集团",
+          "industry_code": "330100",
+          "industry_name": "白色家电",
+          "event_name": "全球化市场扩张与品牌布局",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "000333",
+          "target_name": "美的集团",
+          "event_name": "全球化市场扩张与品牌布局",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U20",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "002244",
+          "secu_abbr": "滨江集团",
+          "industry_code": "430100",
+          "industry_name": "房地产开发",
+          "event_name": "重大项目投资建设",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "002244",
+          "target_name": "滨江集团",
+          "event_name": "重大项目投资建设",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U21",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "002387",
+          "secu_abbr": "维信诺",
+          "industry_code": "270300",
+          "industry_name": "光学光电子",
+          "event_name": "产品技术创新",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "002387",
+          "target_name": "维信诺",
+          "event_name": "产品技术创新",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U22",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "002594",
+          "secu_abbr": "比亚迪",
+          "industry_code": "280500",
+          "industry_name": "乘用车",
+          "event_name": "技术研发进展",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "002594",
+          "target_name": "比亚迪",
+          "event_name": "技术研发进展",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "company",
+          "target_code": "300750",
+          "target_name": "宁德时代",
+          "event_name": "动力电池产品迭代",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "company",
+          "target_code": "300014",
+          "target_name": "亿纬锂能",
+          "event_name": "产品技术创新",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "company",
+          "target_code": "02498.HK",
+          "target_name": "速腾聚创",
+          "event_name": "产品技术创新",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U23",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "000625",
+          "secu_abbr": "长安汽车",
+          "industry_code": "280500",
+          "industry_name": "乘用车",
+          "event_name": "产品技术创新",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "000625",
+          "target_name": "长安汽车",
+          "event_name": "产品技术创新",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "company",
+          "target_code": "00175.HK",
+          "target_name": "吉利汽车",
+          "event_name": "产品技术创新",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "company",
+          "target_code": "601127",
+          "target_name": "赛力斯",
+          "event_name": "产品技术创新",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "company",
+          "target_code": "002594",
+          "target_name": "比亚迪",
+          "event_name": "技术研发进展",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U24",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "603019",
+          "secu_abbr": "中科曙光",
+          "industry_code": "710100",
+          "industry_name": "计算机设备",
+          "event_name": "关键技术突破",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "603019",
+          "target_name": "中科曙光",
+          "event_name": "关键技术突破",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U25",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600879",
+          "secu_abbr": "航天电子",
+          "industry_code": "650100",
+          "industry_name": "航天装备Ⅱ",
+          "event_name": "商业航天与低空经济发展",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "industry",
+          "target_code": null,
+          "target_name": "计算机设备",
+          "event_name": "行业下游的需求变化",
+          "emotion": "正面"
+        },
+        {
+          "target_type": "industry",
+          "target_code": null,
+          "target_name": "航天装备Ⅱ",
+          "event_name": "商业航天与低空经济发展",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U26",
+      "reference": [
+        {
+          "sheet": "行业新闻",
+          "trading_code": null,
+          "secu_abbr": null,
+          "industry_code": "750300",
+          "industry_name": "炼化及贸易",
+          "event_name": "OPEC+产量政策变化",
+          "event_emotion": "负面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "industry",
+          "target_code": "750300",
+          "target_name": "炼化及贸易",
+          "event_name": "OPEC+产量政策变化",
+          "emotion": "负面"
+        }
+      ]
+    },
+    {
+      "id": "U27",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "600703",
+          "secu_abbr": "三安光电",
+          "industry_code": "270300",
+          "industry_name": "光学光电子",
+          "event_name": "产品技术创新",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "600703",
+          "target_name": "三安光电",
+          "event_name": "产品技术创新",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U28",
+      "reference": [
+        {
+          "sheet": "行业新闻",
+          "trading_code": null,
+          "secu_abbr": null,
+          "industry_code": "370300",
+          "industry_name": "生物制品",
+          "event_name": "公共卫生事件",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "industry",
+          "target_code": "370300",
+          "target_name": "生物制品",
+          "event_name": "公共卫生事件",
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "U29",
+      "reference": [
+        {
+          "sheet": "个股新闻",
+          "trading_code": "000002",
+          "secu_abbr": "万科A",
+          "industry_code": "430100",
+          "industry_name": "房地产开发",
+          "event_name": "现金流风险",
+          "event_emotion": "负面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "company",
+          "target_code": "000002",
+          "target_name": "万科A",
+          "event_name": "现金流风险",
+          "emotion": "负面"
+        }
+      ]
+    },
+    {
+      "id": "U30",
+      "reference": [
+        {
+          "sheet": "行业新闻",
+          "trading_code": null,
+          "secu_abbr": null,
+          "industry_code": "630600",
+          "industry_name": "风电设备",
+          "event_name": "风电产业政策支持",
+          "event_emotion": "正面"
+        }
+      ],
+      "prediction": [
+        {
+          "target_type": "industry",
+          "target_code": "630600",
+          "target_name": "风电设备",
+          "event_name": "风电产业政策支持",
+          "emotion": "正面"
+        }
+      ]
+    }
+  ],
+  "execution": [
+    {
+      "id": "U01",
+      "seconds": 52.84,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U02",
+      "seconds": 89.17,
+      "calls": 2,
+      "archives": 4
+    },
+    {
+      "id": "U03",
+      "seconds": 51.17,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U04",
+      "seconds": 89.11,
+      "calls": 2,
+      "archives": 6
+    },
+    {
+      "id": "U05",
+      "seconds": 89.12,
+      "calls": 2,
+      "archives": 4
+    },
+    {
+      "id": "U06",
+      "seconds": 59.47,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U07",
+      "seconds": 44.78,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U08",
+      "seconds": 78.12,
+      "calls": 2,
+      "archives": 2
+    },
+    {
+      "id": "U09",
+      "seconds": 89.27,
+      "calls": 2,
+      "archives": 3
+    },
+    {
+      "id": "U10",
+      "seconds": 50.44,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U11",
+      "seconds": 54.89,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U12",
+      "seconds": 87.97,
+      "calls": 2,
+      "archives": 4
+    },
+    {
+      "id": "U13",
+      "seconds": 67.62,
+      "calls": 2,
+      "archives": 3
+    },
+    {
+      "id": "U14",
+      "seconds": 81.91,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U15",
+      "seconds": 10.67,
+      "calls": 1,
+      "archives": 0
+    },
+    {
+      "id": "U16",
+      "seconds": 78.38,
+      "calls": 2,
+      "archives": 3
+    },
+    {
+      "id": "U17",
+      "seconds": 41.81,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U18",
+      "seconds": 87.7,
+      "calls": 2,
+      "archives": 4
+    },
+    {
+      "id": "U19",
+      "seconds": 86.39,
+      "calls": 2,
+      "archives": 3
+    },
+    {
+      "id": "U20",
+      "seconds": 8.91,
+      "calls": 1,
+      "archives": 0
+    },
+    {
+      "id": "U21",
+      "seconds": 55.44,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U22",
+      "seconds": 89.09,
+      "calls": 2,
+      "archives": 13
+    },
+    {
+      "id": "U23",
+      "seconds": 89.08,
+      "calls": 2,
+      "archives": 6
+    },
+    {
+      "id": "U24",
+      "seconds": 61.41,
+      "calls": 2,
+      "archives": 2
+    },
+    {
+      "id": "U25",
+      "seconds": 89.11,
+      "calls": 2,
+      "archives": 6
+    },
+    {
+      "id": "U26",
+      "seconds": 51.03,
+      "calls": 2,
+      "archives": 2
+    },
+    {
+      "id": "U27",
+      "seconds": 35.34,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U28",
+      "seconds": 57.73,
+      "calls": 2,
+      "archives": 2
+    },
+    {
+      "id": "U29",
+      "seconds": 49.56,
+      "calls": 2,
+      "archives": 1
+    },
+    {
+      "id": "U30",
+      "seconds": 57.47,
+      "calls": 2,
+      "archives": 1
+    }
+  ],
+  "expected_conversation": {
+    "tested": 30,
+    "object_correct": 27,
+    "emotion_correct": 25,
+    "event_exact": 24,
+    "all_three_match": 23,
+    "by_reference_sheet": {
+      "个股新闻": {
+        "total": 23,
+        "object_correct": 21,
+        "emotion_correct": 20,
+        "event_exact": 18
+      },
+      "行业新闻": {
+        "total": 7,
+        "object_correct": 6,
+        "emotion_correct": 5,
+        "event_exact": 6
+      }
+    }
+  },
+  "expected_runtime": {
+    "tested": 30,
+    "archives_available": 28,
+    "calls": 58,
+    "max_calls": 2,
+    "mean_seconds": 64.5,
+    "median_seconds": 60.44,
+    "max_seconds": 89.27
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "version": "showcase-cases-v2",
+  "source_sha256": "030b3094ee36dee87a64cf8cca23ba7a302911ab85b772dc2c027d44f0987976",
+  "provenance": "Current-assistant editorial analysis, source quotations checked; pending human financial review; not model API outputs.",
+  "materials": {
+    "train-47613": {
+      "document": {
+        "publication_time": "2026-05-26T16:49:38.000004",
+        "source": "公司公告",
+        "text": "恒瑞医药公告，近日公司子公司苏州盛迪亚生物医药有限公司收到国家药监局核准签发的注射用SHR-5421《药物临床试验批准通知书》，同意该药品单药在多发性骨髓瘤中开展临床研究。注射用SHR-5421为公司自主研发的创新型抗肿瘤药物，截至目前相关项目累计研发投入约2030万元(未经审计)。",
+        "title": "恒瑞医药：子公司获注射用SHR-5421药物临床试验批准通知书"
+      },
+      "key": "train-47613",
+      "material_id": "779e7ea9590b5437cca0c707d3ca67a509676cfd0fc4f63a0a11d4858479e8f0:inputs:1",
+      "received_at": "2026-09-21T02:29:14.672174+00:00",
+      "source_check": {
+        "body_sha256": "2b411488df90a5846956086734a9630d87654821c7b00a817fb5db3033f7e8e3",
+        "independence": "not_established",
+        "nature": "source_declaration_not_authenticated",
+        "original_available_at": "2026-05-26T08:49:38.000000+00:00",
+        "original_source_row": "398a97a849ea4aecec25c9762d9c1eedd7cb9bce64851ac7ca84beb7443f3302:Sheet1:47613",
+        "source_kind": "train_development",
+        "status": "identity_split_hash_checked"
+      }
+    },
+    "train-46878": {
+      "document": {
+        "publication_time": "2026-05-26T16:56:00.000004",
+        "source": "21经济网",
+        "text": "南财智讯5月26日电，恒瑞医药公告，恒瑞医药（简称）收到国家药品监督管理局核准签发的关于注射用SHR-5421的《药物临床试验批准通知书》。该药物为公司自主研发的创新型抗肿瘤药物，拟用于治疗多发性骨髓瘤。目前国内外暂无同类药物获批上市。截至目前，该项目累计研发投入约2030万元。公司将按规定积极推进临床试验并及时履行信息披露义务。",
+        "title": "恒瑞医药：注射用SHR-5421获临床试验批准"
+      },
+      "key": "train-46878",
+      "material_id": "779e7ea9590b5437cca0c707d3ca67a509676cfd0fc4f63a0a11d4858479e8f0:inputs:2",
+      "received_at": "2026-09-21T02:29:14.679186+00:00",
+      "source_check": {
+        "body_sha256": "3f591918f0d8267788bd785a235a822bb76408b58e0f7ba4ba1f42ca1fce2e5f",
+        "independence": "not_established",
+        "nature": "source_declaration_not_authenticated",
+        "original_available_at": "2026-05-26T08:56:00.000000+00:00",
+        "original_source_row": "398a97a849ea4aecec25c9762d9c1eedd7cb9bce64851ac7ca84beb7443f3302:Sheet1:46878",
+        "source_kind": "train_development",
+        "status": "identity_split_hash_checked"
+      }
+    },
+    "train-101112": {
+      "document": {
+        "publication_time": "2026-05-26T16:48:00",
+        "source": "新浪财经",
+        "text": "来源：滚动播报\n恒瑞医药公告，公司子公司成都盛迪医药有限公司收到国家药监局核准签发关于HRS-1635片的《药物临床试验批准通知书》，同意本品单药在B细胞恶性肿瘤患者中开展临床研究，将于近期开展临床试验。HRS-1635片是公司自主研发的创新型抗肿瘤药物，目前国内外暂无同类药物获批上市，相关项目累计研发投入约2360万元（未经审计）。举报/反馈",
+        "title": "恒瑞医药：HRS-1635片获临床试验批准，研发投入约2360万元"
+      },
+      "key": "train-101112",
+      "material_id": "779e7ea9590b5437cca0c707d3ca67a509676cfd0fc4f63a0a11d4858479e8f0:inputs:3",
+      "received_at": "2026-09-21T02:29:14.689964+00:00",
+      "source_check": {
+        "body_sha256": "d553f96754b8617b38d974351266d0a8436f41e5b6245f03471f2f1e3c5ce7b3",
+        "independence": "not_established",
+        "nature": "source_declaration_not_authenticated",
+        "original_available_at": "2026-05-26T08:48:00.000000+00:00",
+        "original_source_row": "398a97a849ea4aecec25c9762d9c1eedd7cb9bce64851ac7ca84beb7443f3302:Sheet1:101112",
+        "source_kind": "train_development",
+        "status": "identity_split_hash_checked"
+      }
+    },
+    "mt-fid": {
+      "document": {
+        "publication_time": "2026-05-26",
+        "source": "Mineral Resources",
+        "text": "The expansion – which includes the construction of a new flotation plant and the development of underground mining – represents a total capital investment of $490 million (100% basis), to be deployed across FY27 and FY28.\nThe investment breaks down across three key areas: a flotation plant ($240M), underground pre-production development ($220M) and non-processing infrastructure ($30M).\nAt the current spot spodumene price of approximately US$2,700/t SC6, the payback period is expected to be less than one year¹.\nThe flotation plant and underground mining program are expected to deliver meaningful improvements to the Mt Marion operation, supporting mine life through access to additional mineral resources below the existing open pit.\nThe projects will also guide improved plant recoveries, targeting approximately 70%, increased installed capacity from ~500ktpa SC6 to 600ktpa SC6 and remove the lower-grade SC3.5 product to deliver a single SC5 product.\nTendering for an underground mining contractor is already underway, with central underground development expected to commence in Q1 FY27.\nFrom FY28, Mt Marion will operate as a combined open pit and underground mine, with underground ore from open stoping expected to supplement up to 40% of processing feed.\nThe flotation circuit will be built alongside the existing dense media separation plant to recover fine spodumene currently lost to tailings, constructed and operated by MinRes' Mining Services division. Construction is targeted to begin in Q1 FY27, with commissioning and ramp-up scheduled for 2H FY28.\nMinimal disruption to existing operations is expected during construction and commissioning. The site's accommodation camp will also be expanded from 500 to 750 rooms to support both projects.\nMinRes Managing Director Chris Ellison welcomed the decision.\n\"This high-return brownfield investment sets up Mt Marion for decades to come. Underground mining and flotation will work together to access deeper high-grade ore, lift recoveries and produce a single 5% product,” Ellison said.\n\"I thank our partner Ganfeng for their collaboration on the design and commitment to these projects, which will ensure we unlock the full potential of Mt Marion.\"\nLearn more about the MinRes Lithium business.\n¹ Payback period based on current spot spodumene price of approximately US$2,700/t SC6.",
+        "title": "Mt Marion flotation plant and underground development FID"
+      },
+      "key": "mt-fid",
+      "material_id": "779e7ea9590b5437cca0c707d3ca67a509676cfd0fc4f63a0a11d4858479e8f0:inputs:13",
+      "received_at": "2026-09-21T02:29:14.765946+00:00",
+      "source_check": {
+        "article_containers": 1,
+        "independence": "not_established",
+        "nature": "company_disclosure",
+        "paragraphs": 14,
+        "raw_sha256": "b1ca0733739785265510946a1663143393da1cb203e0c5b23241519a4e3df1a7",
+        "source_kind": "public_primary",
+        "status": "original_page_checked",
+        "url": "https://www.mineralresources.com.au/news/company-updates/mt-marion-flotation-plant-and-underground-development-fid/"
+      },
+      "source_url": "https://www.mineralresources.com.au/news/company-updates/mt-marion-flotation-plant-and-underground-development-fid/"
+    },
+    "mt-contractor": {
+      "document": {
+        "publication_time": "2026-07-15",
+        "source": "Mineral Resources",
+        "text": "The appointment marks a significant milestone in the progression of underground mining at Mt Marion and signals the next phase of development at one of Australia's leading lithium operations.\nMinRes Underground Mine Planning Manager Andrew Cooper said the appointment brings the right expertise to unlock the long-term potential of the Mt Marion orebody.\n\"We're focused on systematically building the technical and operational capability to unlock the full potential of the Mt Marion orebody,\" Cooper said.\n\"We had to pause and be patient while the market worked through its challenges, but that time wasn't wasted. We've come back sharper, better planned and with a team ready to deliver.\n\"Macmahon brings proven underground expertise to support our mining plans and together we're focused on executing this safely and efficiently.\"\nCooper said the relationship with Macmahon goes beyond a typical contractor arrangement.\n\"Macmahon will be an integral part of our team. Close collaboration is what it takes to deliver a project of this scale,” he said.\nMacmahon Managing Director and Chief Executive Officer Michael Finnegan welcomed the contract award, highlighting the opportunity for both companies to forge a strong and productive working relationship.\n“Macmahon is excited to partner with MinRes and Jiangxi Ganfeng Lithium to deliver the next phase of underground mining at Mt Marion,\" Finnegan said.\n\"This is a high-quality, long-term opportunity to collaborate alongside strong, aligned partners and positions Macmahon Underground firmly on the global stage as a tier one contractor in future-facing commodities.\n\"We look forward to working closely with the joint venture to unlock the full potential of this operation and support its continued growth as a globally significant lithium asset.”\nThis appointment is the culmination of a journey that began in early 2024, when MinRes commenced preliminary works to support future underground mining at Mt Marion.\nA diamond drilling program followed, significantly increasing confidence in the underground resource within the mine's upper North Pit and confirming the orebody's potential.\nThe program was placed on hold in response to softened lithium prices, but sustained improvement in market conditions has since prompted MinRes and Ganfeng to push ahead with underground development.\nIn May 2026, MinRes announced a Final Investment Decision (FID) for underground mining at Mt Marion, alongside the construction of a flotation plant and camp expansion.\nUnderground development is expected to commence in the first quarter of FY27, with Mt Marion operating as a combined open pit and underground operation from FY28.\nUnderground development and a new flotation plant are together expected to support mine life, improve plant recovery towards 70%, increase installed capacity to approximately 600ktpa SC6 and deliver a single, higher-quality SC5 product.\nMinRes Chief Executive Lithium Joshua Thurlow said the underground program represents a defining moment for the business.\n“We’ve barely scratched the surface of what Mt Marion can deliver,” Thurlow said.\n“Underground mining is the next step in realising the full value of this world-class asset and we’re building the team and the infrastructure to make it happen.”\nLearn more about MinRes Lithium business and sites.",
+        "title": "MinRes appoints Macmahon as underground mining contractor at Mt Marion"
+      },
+      "key": "mt-contractor",
+      "material_id": "779e7ea9590b5437cca0c707d3ca67a509676cfd0fc4f63a0a11d4858479e8f0:inputs:14",
+      "received_at": "2026-09-21T02:29:14.773586+00:00",
+      "source_check": {
+        "article_containers": 2,
+        "independence": "not_established",
+        "nature": "company_disclosure",
+        "paragraphs": 21,
+        "raw_sha256": "0fb69c6603b8a61e3910b57b4351cc377a8bf993eb1b1a7d4a408552f0b0f895",
+        "source_kind": "public_primary",
+        "status": "original_page_checked",
+        "url": "https://www.mineralresources.com.au/news/company-updates/minres-appoints-macmahon-as-underground-mining-contractor-at-mt-marion/"
+      },
+      "source_url": "https://www.mineralresources.com.au/news/company-updates/minres-appoints-macmahon-as-underground-mining-contractor-at-mt-marion/"
+    },
+    "train-5093": {
+      "document": {
+        "publication_time": "2026-05-26T05:48:00.000003",
+        "source": "新浪财经",
+        "text": "来源：中国基金报\n5月25日晚间，赛力斯发布公告称，公司旗下重庆蓝电科技有限公司（以下简称蓝电科技）拟获增资约66.71亿元，参与方新增宁波梅山保税港区问鼎投资有限公司（以下简称问鼎投资）、博俊科技、星宇股份。\n蓝电科技的主要资产是蓝电汽车，而问鼎投资是宁德时代的全资子公司。若完成上述交易，宁德时代参股的车企将再添一家。天眼查显示，宁德时代通过问鼎投资，参股了奇瑞汽车、智己汽车、爱驰汽车、哪吒汽车等车企。\n赛力斯“放手” 蓝电科技参与增资方新增3家上市公司\n4月22日，赛力斯董事会审议通过议案，同意蓝电科技增加注册资本6.8亿元，涉及增资金额不超过72亿元。赛力斯放弃对蓝电科技新增注册资本的优先认购权。\n5月25日，蓝电科技、赛力斯汽车（湖北）有限公司与重庆沙磁致远新能源科技合伙企业（有限合伙）（以下简称沙磁致远）、重庆岳行嘉升企业管理合伙企业（有限合伙）（以下简称岳行嘉升）、问鼎投资、博俊科技、星宇股份签署了《增资协议》及《股东协议》。\n按照上述协议，蓝电科技拟合计获得的增资约为66.71亿元，参与增资方包含赛力斯此前公告提及的沙磁致远、岳行嘉升，拟分别以现金出资约34.33亿元、16.39亿元，采取分期方式支付。\n岳行嘉升是蓝电科技的员工持股平台。沙磁致远成立于2026年4月13日，大股东是重庆市沙坪坝区国有资产监督管理委员会旗下公司。\n同时，蓝电科技将迎来三名新的增资方，分别是问鼎投资、博俊科技、星宇股份。\n按照上述协议，问鼎投资、博俊科技、星宇股份拟分别以现金方式，向蓝电科技出资9.84亿元、5.12亿元、1.02亿元。\n蓝电科技完成上述增资扩股后，沙磁致远、岳行嘉升分别成为第一、第三大股东，持股比例分别为34.5005%、16.4779%。\n问鼎投资、博俊科技、星宇股份将分别成为蓝电科技的第四、第五、第六大股东，持股比例分别为9.8867%、5.1493%、1.0299%。\n赛力斯此前公告称，蓝电科技完成本轮增资扩股，公司将不再拥有对蓝电科技的控制权。公司对蓝电科技的财务核算，将由成本法变为权益法，预计带来一定的投资收益。\n截至5月25日收盘，赛力斯A股股价报82.08元/股，总市值达1407亿元。\n蓝电汽车或借力宁德时代等3家上市公司\n蓝电科技拟实施增资扩股，最早可以追溯至2月8日。彼时，赛力斯与重庆市沙坪坝区人民政府签署《合作协议》约定，赛力斯将蓝电汽车的相关存量资产剥离，出资设立蓝电科技。\n《合作协议》显示，重庆市沙坪坝区人民政府将组建市场化股权投资基金与其他投资人及经营团队，采取现金方式增资蓝电科技。\n4月14日，赛力斯二级全资子公司蓝电科技注册成立，注册资本为3.2亿元，经营范围包含汽车销售、新能源汽车整车销售、汽车零部件及配件制造等。\n官网显示，蓝电汽车是赛力斯旗下智能电动汽车品牌，品牌定位是智能电动汽车普及者，为广大家庭用户提供卓越的出行产品及服务。\n来源：蓝电汽车官网\n2023年，蓝电汽车发布新品车型蓝电E5，以9.98万元的终端成交价，一举开创SUV（运动型多用途汽车）的油电同价新时代。\n目前，赛力斯的销量主要来自新能源汽车品牌问界。蓝电汽车需要通过其母公司蓝电科技实施增资扩股，获得汽车产业链头部公司的助力。\n蓝电科技此次拟增资扩股引入的博俊科技、星宇股份，均是汽车产业链上游的知名企业。\n官网显示，博俊科技是一家集研发、生产、销售于一体的大型汽车模具和汽车零部件制造企业。\n星宇股份是中国主要的汽车全套车灯总成制造商和设计方案提供商之一，产品覆盖德系、日系、美系、法系车企，以及中国多家自主品牌整车企业。\n蓝电科技此次拟增资扩股引入的问鼎投资，系全球动力电池巨头宁德时代的全资子公司。\n截至5月25日收盘，宁德时代A股股价报402.88元/股，跌幅达2.01%，总市值为1.91万亿元。",
+        "title": "宁德时代 拟“上车”蓝电"
+      },
+      "key": "train-5093",
+      "material_id": "779e7ea9590b5437cca0c707d3ca67a509676cfd0fc4f63a0a11d4858479e8f0:inputs:7",
+      "received_at": "2026-09-21T02:29:14.716761+00:00",
+      "source_check": {
+        "body_sha256": "1d8fefa211f8f337ea3119f4d6670c80a0cc8a8221f859d5c32d6063f4097a43",
+        "independence": "not_established",
+        "nature": "source_declaration_not_authenticated",
+        "original_available_at": "2026-05-25T21:48:00.000000+00:00",
+        "original_source_row": "398a97a849ea4aecec25c9762d9c1eedd7cb9bce64851ac7ca84beb7443f3302:Sheet1:5093",
+        "source_kind": "train_development",
+        "status": "identity_split_hash_checked"
+      }
+    },
+    "bojun": {
+      "document": {
+        "publication_time": "2026-06-02",
+        "source": "博俊科技：巨潮资讯披露",
+        "text": "1 \n \n证券代码：300926                                  证券简称：博俊科技 \n江苏博俊工业科技股份有限公司 \n投资者关系活动记录表 \n编号：2026-004 \n投资者关系活动类别 \n 特定对象调研        □分析师会议 \n□媒体采访            □业绩说明会 \n□新闻发布会          □路演活动 \n□现场参观            □其他（电话会议） \n参与单位名称、时间及地\n点 \n2026 年 6 月 2 日 上午 10:00-12:00 博俊科技五楼会议室 \n国泰基金；天风证券；泽泉投资；国金证券；伴榕投资；中\n信建投证券；合晟资产；山西证券；长江证券；开源证券；\n中邮证券；国海证券；广发证券；光大证券；国盛证券。 \n上市公司              \n接待人员 \n董事长：伍亚林 \n董事：伍丹丹 \n董事会秘书：周后高 \n证券事务代表：陈伦 \n投资者关系活动        \n主要内容介绍 \n第一部分：公司介绍环节 \n江苏博俊工业科技股份有限公司 （以下简称“公司”） 成立\n于 2011 年， 主要从事汽车精密零部件和精密模具的研发、 设\n计、 生产和销售。 公司产品覆盖整车上下车体， 车身模块化产\n品， 仪表台骨架总成等； 零部件产品种类覆盖转向系统、 动力\n系统、 车门系统、 天窗系统、 电子系统、 内饰系统、 座椅系统\n等，向客户提供一站式的汽车零部件解决方案。公司拥有自\n2 \n \n主模具研发能力。 公司主要生产工艺覆盖冲压、 热成型冲压、\n机器人点焊、 机器人气保焊、 激光焊接、 嵌件注塑、 激光切割、\n一体化压铸及其他装配等生产工艺。 \n公司与吉利汽车、 长安汽车、 长安福特、 理想汽车、 赛力\n斯、 比亚迪、 小鹏汽车、 零跑汽车、 蒂森克虏伯集团、 伟巴斯\n特集团、麦格纳集团、凯毅德集团等国内外知名整车制造商\n和汽车零部件厂商建立了良好的合作关系， 并形成战略合作。 \n目前，公司在全国的子公司主要为以下 16 家： \n1. 重庆博俊工业科技有限公司，2017 年注册成立 \n2. 成都博俊科技有限公司，2017 年注册成立 \n3. 常州博俊科技有限公司，2021 年注册成立 \n4. 西安博俊汽车零部件有限公司，2022 年注册成立 \n5. 浙江博俊工业科技有限公司，2022 年注册成立 \n6. 济南博俊汽车零部件有限公司，2022 年注册成立 \n7. 河北博俊科技有限公司，2023 年注册成立 \n8. 宁波博俊汽车零部件有限公司，2023 年注册成立 \n9. 重庆博俊汽车科技有限公司，2023 年注册成立 \n10. 广东博俊汽车零部件有限公司，2024 年注册成立 \n11. 重庆博俊汽车零部件有限公司，2024 年收购取得 \n12. 河北博俊汽车零部件有限公司，2024 年收购取得 \n13. 常州博俊汽车零部件有限公司，2025 年注册成立 \n14. 金华博俊汽车零部件有限公司，2025 年注册成立 \n15. 重庆博俊轻量化科技有限公司，2025 年注册成立 \n3 \n \n16. 武汉博俊汽车零部件有限公司，2025 年注册成立 \n第二部分：问答环节 \n1、问：请问公司二季度排产情况？Q2 同比预测？ \n答：从主机厂客户公布的数据及公司 4、5 月份的交付来\n看，公司相较一季度交付量明显提升，6 月份交付数据有待\n本月度结束后统计，二季度具体经营数据请关注公司后续公\n告。 \n2、问：请问公司 2026 年 Q1 客户收入占比？ \n答：2026 年 Q1 前五客户还是以主机厂为主，单一客户销售\n收入占比较为均衡，没有大客户依赖。 \n3、问：今年有哪些新拓展的项目？ \n答：从客户角度来看，零跑今年很多车型都在量产，以及后\n续陆续量产，今年量产的车型属于纯增量；另外，有北汽新\n能源享界项目以及获取了奇瑞的相关项目定点，目前在开发\n阶段，以上项目预计今年年内量产。 \n4、问：零跑今年大概营收贡献会有多少？ \n答：Q1 零跑居客户前十中，全年来看有望进入前五。 \n5、问：公司 5 个多亿投资蓝电科技的考量？ \n答：目前，新能源主机厂持续发力海外拓展。其中，赛力斯\n也坚定高端出海战略，继续推进海外业务拓展。公司此次投\n资蓝电科技也是看好客户全球化战略及其发展前景，属于产\n业链上的投资布局。目前，蓝电科技已完成工商变更登记，\n正式更名为重庆赛豆科技有限公司。赛豆与字节跳动火山引\n擎合作的第一款车型也在研发中，公司也将持续做好相应的\n业务配套。 \n6、问：在前述基础上，公司配套赛力斯及其其他品牌的单\n车价值量后续会更多吗？ \n答：在前述基础上公司会更有优势；同时公司自身也要时刻\n4 \n \n保持应有的竞争力。 \n7、问：公司未来海外布局？ \n答：公司昆山本部出口的主要是精密零部件，车身板块跟客\n户在做对接，未来若考虑出海，会看合适的时机及兼具多客\n户和高销量地区。 \n8、问：公司对机器人方向总的投资规划？机器人方面的进\n展？ \n答：公司在机器人方面目前主要为股权投资以及与上海电气\n智能机器人定制化技术研发与落地应用的联合研发。机器人\n零部件方面，公司跟参股的灵猴机器人、星海图也在开展业\n务对接。  \n9、问：镁合金业务进展？ \n答：与铝相比，镁材料价格低一些且减重效果更好，目前，\n部分客户产品已经在往这个方向上做，像仪表台骨架、中控\n支架等产品已经有应用，加上我国镁储存量大，国家从战略\n层面上也在大力推动镁材料的应用，重点布局新能源汽车、\n低空经济和固态储能等高端领域，目前公司正在推进相关业\n务的实施。 \n10、问：公司会考虑赎回可转债吗？ \n答：公司可转债下次赎回指标起算日在今年 6 月中旬，若再\n次触发“博俊转债”有条件赎回条款，最快在 7 月上旬，届\n时公司将结合市场情况及公司自身情况，同时从维护广大可\n转债投资者的利益角度出发，审慎研判后作出决策。 \n件清单（如有） 无 \n日期 2026 年 6 月 2 日 \n ",
+        "title": "江苏博俊工业科技股份有限公司投资者关系活动记录表（2026-004）"
+      },
+      "key": "bojun",
+      "material_id": "779e7ea9590b5437cca0c707d3ca67a509676cfd0fc4f63a0a11d4858479e8f0:inputs:15",
+      "received_at": "2026-09-21T02:29:14.781361+00:00",
+      "source_check": {
+        "extraction": "pypdf 6.10.0 complete pages; original line breaks retained",
+        "independence": "not_established",
+        "nature": "company_disclosure",
+        "pages": 4,
+        "progress_location": "PDF page 3 question 5",
+        "raw_sha256": "23cd822588b6559be5bb8e08f578e878f1a1e225d2240383388085d8af4d714f",
+        "source_kind": "public_primary",
+        "status": "original_pdf_checked",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-06-02/1225346699.PDF"
+      },
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-06-02/1225346699.PDF"
+    }
+  },
+  "cases": [
+    {
+      "id": "hengrui",
+      "title": "恒瑞：转载与不同药物",
+      "description": "加入相同药物转载，再加入另一药物，观察聚合与分离。",
+      "steps": [
+        {
+          "material": "train-47613",
+          "event": "shr5421",
+          "relation": "initial",
+          "summary": "SHR-5421临床研究获批的报道；尚无疗效或商业化结论。",
+          "claims": [
+            {
+              "text": "报道转述：SHR-5421获准开展多发性骨髓瘤临床研究。",
+              "material": "train-47613",
+              "quote": "同意该药品单药在多发性骨髓瘤中开展临床研究。"
+            }
+          ],
+          "effects": [
+            {
+              "target": "恒瑞医药",
+              "direction": "positive",
+              "pathway": "SHR-5421进入临床研究阶段，为研发推进提供条件；尚不能据此确认疗效、上市或收入。",
+              "conditions": [
+                "完成临床试验并达到安全性和有效性要求",
+                "后续监管审批"
+              ],
+              "gaps": [
+                "未核到批准通知书原件",
+                "商业化时间及收入贡献未知"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            }
+          ],
+          "objects": [
+            {
+              "code": "600276",
+              "name": "恒瑞医药",
+              "category": "创新药研发进展"
+            }
+          ],
+          "emotion": "正面"
+        },
+        {
+          "material": "train-46878",
+          "event": "shr5421",
+          "relation": "repeat",
+          "summary": "同一药物、同一批准事项的转述；核心结论不变。",
+          "claims": [],
+          "effects": [],
+          "objects": [],
+          "emotion": "未判断"
+        },
+        {
+          "material": "train-101112",
+          "event": "hrs1635",
+          "relation": "separate",
+          "summary": "HRS-1635是另一药物，独立建档，不能与SHR-5421合并。",
+          "claims": [
+            {
+              "text": "报道转述：HRS-1635片获准在B细胞恶性肿瘤患者中开展临床研究。",
+              "material": "train-101112",
+              "quote": "同意本品单药在B细胞恶性肿瘤患者中开展临床研究"
+            }
+          ],
+          "effects": [
+            {
+              "target": "恒瑞医药",
+              "direction": "positive",
+              "pathway": "HRS-1635进入临床研究阶段，为研发推进提供条件；尚不能据此确认疗效、上市或收入。",
+              "conditions": [
+                "完成临床试验并达到安全性和有效性要求",
+                "后续监管审批"
+              ],
+              "gaps": [
+                "未核到批准通知书原件",
+                "商业化时间及收入贡献未知"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            }
+          ],
+          "objects": [
+            {
+              "code": "600276",
+              "name": "恒瑞医药",
+              "category": "创新药研发进展"
+            }
+          ],
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "mt-marion",
+      "title": "Mt Marion：投资决定至承包商任命",
+      "description": "区分项目计划、承包商任命与尚未发生的投产。",
+      "steps": [
+        {
+          "material": "mt-fid",
+          "event": "mt-marion",
+          "relation": "initial",
+          "summary": "Mt Marion披露地下开发及浮选扩建投资安排；建设和产能提升仍属计划。",
+          "claims": [
+            {
+              "text": "Mt Marion披露扩建总资本投资4.90亿（原文“$”，按项目100%口径），计划分布在FY27和FY28；原文节选未明确币种。",
+              "material": "mt-fid",
+              "quote": "represents a total capital investment of $490 million (100% basis), to be deployed across FY27 and FY28."
+            },
+            {
+              "text": "项目预计将装机产能从约500ktpa SC6提升至600ktpa SC6，属于目标而非已实现产量。",
+              "material": "mt-fid",
+              "quote": "increased installed capacity from ~500ktpa SC6 to 600ktpa SC6"
+            }
+          ],
+          "effects": [
+            {
+              "target": "Mt Marion项目",
+              "direction": "positive",
+              "pathway": "若开发及浮选厂按计划完成，装机产能目标由约500提升至600ktpa SC6，约增加20%；这是项目层面的扩建影响，不是赣锋利润预测。",
+              "conditions": [
+                "建设、调试及爬坡按计划完成",
+                "矿石条件、回收率及市场价格满足经营要求"
+              ],
+              "gaps": [
+                "实际投产进度和实现产量待核",
+                "赣锋权益比例、投资分摊及财务贡献未知"
+              ],
+              "dimensions": {
+                "materiality": "substantive",
+                "scope": "limited",
+                "urgency": "long_term"
+              },
+              "claims": [
+                0,
+                1
+              ],
+              "horizon": "long_term",
+              "dimension_basis": {
+                "materiality": 1,
+                "scope": 0,
+                "urgency": 0
+              }
+            },
+            {
+              "target": "赣锋锂业",
+              "direction": "positive",
+              "pathway": "原文将Ganfeng列为合作伙伴，项目推进可能改善合资项目的运营条件；对上市公司的实际财务影响暂不能量化。",
+              "conditions": [
+                "项目按计划实施",
+                "核清股权、资金分摊与收益分配"
+              ],
+              "gaps": [
+                "缺少赣锋权益比例及财务贡献依据"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            }
+          ],
+          "objects": [
+            {
+              "code": "002460",
+              "name": "赣锋锂业",
+              "category": "产能布局调整"
+            }
+          ],
+          "emotion": "正面"
+        },
+        {
+          "material": "mt-contractor",
+          "event": "mt-marion",
+          "relation": "progress",
+          "summary": "Macmahon已获任命为地下采矿承包商，项目由投资安排推进至承包商落实；地下开发和投产仍为预期。",
+          "claims": [
+            {
+              "text": "Mt Marion披露扩建总资本投资4.90亿（原文“$”，按项目100%口径），计划分布在FY27和FY28；原文节选未明确币种。",
+              "material": "mt-fid",
+              "quote": "represents a total capital investment of $490 million (100% basis), to be deployed across FY27 and FY28."
+            },
+            {
+              "text": "项目预计将装机产能从约500ktpa SC6提升至600ktpa SC6，属于目标而非已实现产量。",
+              "material": "mt-fid",
+              "quote": "increased installed capacity from ~500ktpa SC6 to 600ktpa SC6"
+            },
+            {
+              "text": "MinRes已任命Macmahon为Mt Marion地下采矿承包商。",
+              "material": "mt-contractor",
+              "quote": "MinRes appoints Macmahon as underground mining contractor at Mt Marion"
+            },
+            {
+              "text": "地下开发预计FY27第一季度开始，FY28起拟联合露天与地下运营；尚非投产确认。",
+              "material": "mt-contractor",
+              "quote": "Underground development is expected to commence in the first quarter of FY27, with Mt Marion operating as a combined open pit and underground operation from FY28."
+            }
+          ],
+          "effects": [
+            {
+              "target": "Mt Marion项目",
+              "direction": "positive",
+              "pathway": "若开发及浮选厂按计划完成，装机产能目标由约500提升至600ktpa SC6，约增加20%；这是项目层面的扩建影响，不是赣锋利润预测。",
+              "conditions": [
+                "建设、调试及爬坡按计划完成",
+                "矿石条件、回收率及市场价格满足经营要求"
+              ],
+              "gaps": [
+                "实际投产进度和实现产量待核",
+                "赣锋权益比例、投资分摊及财务贡献未知"
+              ],
+              "dimensions": {
+                "materiality": "substantive",
+                "scope": "limited",
+                "urgency": "long_term"
+              },
+              "claims": [
+                0,
+                1
+              ],
+              "horizon": "long_term",
+              "dimension_basis": {
+                "materiality": 1,
+                "scope": 0,
+                "urgency": 0
+              }
+            },
+            {
+              "target": "赣锋锂业",
+              "direction": "positive",
+              "pathway": "原文将Ganfeng列为合作伙伴，项目推进可能改善合资项目的运营条件；对上市公司的实际财务影响暂不能量化。",
+              "conditions": [
+                "项目按计划实施",
+                "核清股权、资金分摊与收益分配"
+              ],
+              "gaps": [
+                "缺少赣锋权益比例及财务贡献依据"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            }
+          ],
+          "objects": [
+            {
+              "code": "002460",
+              "name": "赣锋锂业",
+              "category": "产能布局调整"
+            }
+          ],
+          "emotion": "正面"
+        }
+      ]
+    },
+    {
+      "id": "blue",
+      "title": "蓝电：增资安排与工商变更",
+      "description": "对比多个对象的影响，区分签约、工商变更和资金到账。",
+      "steps": [
+        {
+          "material": "train-5093",
+          "event": "blue",
+          "relation": "initial",
+          "summary": "蓝电科技拟增资，涉及赛力斯、问鼎投资等多个主体；不能当作全部资金已经到账。",
+          "claims": [
+            {
+              "text": "报道转述：蓝电科技拟获增资约66.71亿元，参与方包含问鼎投资、博俊科技及星宇股份。",
+              "material": "train-5093",
+              "quote": "公司旗下重庆蓝电科技有限公司（以下简称蓝电科技）拟获增资约66.71亿元，参与方新增宁波梅山保税港区问鼎投资有限公司（以下简称问鼎投资）、博俊科技、星宇股份。"
+            },
+            {
+              "text": "报道转述：完成本轮增资后赛力斯将不再拥有蓝电科技控制权；这是附完成条件的安排。",
+              "material": "train-5093",
+              "quote": "蓝电科技完成本轮增资扩股，公司将不再拥有对蓝电科技的控制权。"
+            }
+          ],
+          "effects": [
+            {
+              "target": "赛力斯",
+              "direction": "uncertain",
+              "pathway": "增资完成后控制权及核算方式拟变化；投资收益的金额和确认条件仍待披露。",
+              "conditions": [
+                "增资实际完成",
+                "核清控制权变化及会计确认依据"
+              ],
+              "gaps": [
+                "不以工商变更代替资金到账",
+                "财务影响金额待核"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            },
+            {
+              "target": "宁德时代",
+              "direction": "positive",
+              "pathway": "问鼎投资拟参股蓝电科技，可能加深产业链联系；不能直接推定产生电池订单或收入。",
+              "conditions": [
+                "投资实际完成",
+                "实际业务合作落地"
+              ],
+              "gaps": [
+                "订单、收益与出资完成情况未核"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            },
+            {
+              "target": "博俊科技",
+              "direction": "positive",
+              "pathway": "拟投资蓝电科技属于产业链布局；投资尚需按约实施，不能据此确认新增配套收入。",
+              "conditions": [
+                "投资及配套合作按约实施"
+              ],
+              "gaps": [
+                "具体出资进度、订单及收益待核"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            }
+          ],
+          "objects": [
+            {
+              "code": "601127",
+              "name": "赛力斯",
+              "category": "增资与控制权安排"
+            },
+            {
+              "code": "300750",
+              "name": "宁德时代",
+              "category": "产业链投资"
+            },
+            {
+              "code": "300926",
+              "name": "博俊科技",
+              "category": "产业链投资"
+            }
+          ],
+          "emotion": "未判断"
+        },
+        {
+          "material": "bojun",
+          "event": "blue",
+          "relation": "progress",
+          "summary": "博俊后续披露蓝电已工商变更并更名赛豆；新增的是登记及名称进展，出资到账和最终财务影响仍待核。",
+          "claims": [
+            {
+              "text": "报道转述：蓝电科技拟获增资约66.71亿元，参与方包含问鼎投资、博俊科技及星宇股份。",
+              "material": "train-5093",
+              "quote": "公司旗下重庆蓝电科技有限公司（以下简称蓝电科技）拟获增资约66.71亿元，参与方新增宁波梅山保税港区问鼎投资有限公司（以下简称问鼎投资）、博俊科技、星宇股份。"
+            },
+            {
+              "text": "报道转述：完成本轮增资后赛力斯将不再拥有蓝电科技控制权；这是附完成条件的安排。",
+              "material": "train-5093",
+              "quote": "蓝电科技完成本轮增资扩股，公司将不再拥有对蓝电科技的控制权。"
+            },
+            {
+              "text": "博俊披露蓝电科技已完成工商变更并更名为重庆赛豆科技；该表述不证明全部增资资金到账。",
+              "material": "bojun",
+              "quote": "目前，蓝电科技已完成工商变更登记，\n正式更名为重庆赛豆科技有限公司。"
+            }
+          ],
+          "effects": [
+            {
+              "target": "赛力斯",
+              "direction": "uncertain",
+              "pathway": "增资完成后控制权及核算方式拟变化；投资收益的金额和确认条件仍待披露。",
+              "conditions": [
+                "增资实际完成",
+                "核清控制权变化及会计确认依据"
+              ],
+              "gaps": [
+                "不以工商变更代替资金到账",
+                "财务影响金额待核"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            },
+            {
+              "target": "宁德时代",
+              "direction": "positive",
+              "pathway": "问鼎投资拟参股蓝电科技，可能加深产业链联系；不能直接推定产生电池订单或收入。",
+              "conditions": [
+                "投资实际完成",
+                "实际业务合作落地"
+              ],
+              "gaps": [
+                "订单、收益与出资完成情况未核"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            },
+            {
+              "target": "博俊科技",
+              "direction": "positive",
+              "pathway": "拟投资蓝电科技属于产业链布局；后续原始披露支持其投资意图及工商更名信息，不保证新增配套收入。",
+              "conditions": [
+                "投资及配套合作按约实施"
+              ],
+              "gaps": [
+                "具体出资进度、订单及收益待核"
+              ],
+              "dimensions": {
+                "materiality": "unknown",
+                "scope": "limited",
+                "urgency": "unknown"
+              },
+              "claims": [],
+              "horizon": "long_term"
+            }
+          ],
+          "objects": [
+            {
+              "code": "601127",
+              "name": "赛力斯",
+              "category": "增资与控制权安排"
+            },
+            {
+              "code": "300750",
+              "name": "宁德时代",
+              "category": "产业链投资"
+            },
+            {
+              "code": "300926",
+              "name": "博俊科技",
+              "category": "产业链投资"
+            }
+          ],
+          "emotion": "未判断"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "未添加真实澄清案例；不宣称已验证真实反驳与更正正例",
+    "评估分为透明产品规则，不是收益预测或真实性概率"
+  ],
+  "external_model_calls": 0
+}

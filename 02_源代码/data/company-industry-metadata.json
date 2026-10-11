@@ -1,0 +1,2149 @@
+{
+  "version": "company-industry-training-metadata-20261006-v2",
+  "taxonomy": "赛事训练资料原始行业口径；资料未标明分类体系版本",
+  "scope": "current_dossier_companies_allowed_train_static_fields_only",
+  "limitations": [
+    "未读取事件类别、情感、影响或测试答案。",
+    "训练材料的静态行业信息，不是模型预测；本批不能据此评价行业识别准确率。",
+    "材料披露日期不是行业分类生效日期；不得据此回填旧快照或宣称历史有效。",
+    "未覆盖公司继续保留缺口；不能生成行业影响对象。"
+  ],
+  "companies": [
+    {
+      "company_code": "000800",
+      "company_name": "一汽解放",
+      "industry_code": "280600",
+      "industry_name": "商用车",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:12",
+          "raw_sha256": "29a8af96a9b90e485b9ec6d2b4e60ac879f2daec28713f226519ece855306f4d",
+          "observed_publication": "2026-01-14T12:22:08.999996",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "600733",
+      "company_name": "北汽蓝谷",
+      "industry_code": "280500",
+      "industry_name": "乘用车",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:68",
+          "raw_sha256": "9573aa116456f03c4f35bd4036dd7e9e93a07367b82cf18ae6bcd9a17f897e63",
+          "observed_publication": "2026-01-21T22:22:04.999999",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "600859",
+      "company_name": "王府井",
+      "industry_code": "450300",
+      "industry_name": "一般零售",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:238",
+          "raw_sha256": "bd920f1f181281eb2e65a9b7439b337a20fa23465a5dc281616942ec62322b08",
+          "observed_publication": "2026-01-28T19:16:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:6",
+          "raw_sha256": "44cb4e6059a6c3e367ab8f8ddce4245355a0606c564763269f08e8c2ce2c6eba",
+          "observed_publication": "2026-01-05T12:00:00",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "600104",
+      "company_name": "上汽集团",
+      "industry_code": "280500",
+      "industry_name": "乘用车",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:170",
+          "raw_sha256": "0a29d89f22239a81c06269ecdc1ff8a7fd2f591a56a8418e918ac4b22e86e886",
+          "observed_publication": "2026-01-25T21:04:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "300624",
+      "company_name": "万兴科技",
+      "industry_code": "710400",
+      "industry_name": "软件开发",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:266",
+          "raw_sha256": "011b33b846992d2ff76cf079003357867f059d0f660ea12462500c4129dceef4",
+          "observed_publication": "2026-01-30T00:04:01.999998",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "688609",
+      "company_name": "九联科技",
+      "industry_code": "330200",
+      "industry_name": "黑色家电",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1092",
+          "raw_sha256": "2d612ae392c92574392a60e7a0a12275d09b49618820f0b998d196ce03c1bf11",
+          "observed_publication": "2026-03-13T09:35:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1260",
+          "raw_sha256": "aa5add76503437a62b8a6dcc3770601f26e621629e9f1ca0ce5c92d187ec0b7d",
+          "observed_publication": "2026-03-20T15:36:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:28",
+          "raw_sha256": "3b25e1c457af5388e6541e6d3bfc8653e24da29bfa6e3b081016eca529e14626",
+          "observed_publication": "2026-01-11T12:26:27.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:33",
+          "raw_sha256": "7e7542fea8838ebe4c1a80c8337a5abd4b8de25fc5f3ac184fd7cb97a2a8b61f",
+          "observed_publication": "2026-01-11T21:14:15.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:35",
+          "raw_sha256": "c3d8767a3f372e6914bd1bce921b817c3f2395ebc481cddbd5149c770c8073c8",
+          "observed_publication": "2026-01-12T00:59:36.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:38",
+          "raw_sha256": "e5026c97558a8abed1ccdcc8a41b7b2467882ca3d9375e5bb3f069c439a2adc7",
+          "observed_publication": "2026-01-14T11:14:04.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:683",
+          "raw_sha256": "37f7063818e96a70092819d98599f99ce7da7008bbaea57a579614aeecba836b",
+          "observed_publication": "2026-02-25T16:37:16",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:810",
+          "raw_sha256": "5710d6d8097c19d52da766dde0cc0533236b80d5f40782d879bf7f764f435451",
+          "observed_publication": "2026-03-02T18:00:24.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:966",
+          "raw_sha256": "6a8489b2326f2e0ae2e70f532d502fa50272aa5a48333e30b8bf6018bb5ee503",
+          "observed_publication": "2026-03-06T09:08:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "000333",
+      "company_name": "美的集团",
+      "industry_code": "330100",
+      "industry_name": "白色家电",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1024",
+          "raw_sha256": "9a001814db98c498711b8e1c14e85e99a52e4d28a8d785fa67325869065515af",
+          "observed_publication": "2026-03-10T17:57:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1046",
+          "raw_sha256": "e38dd02df3bf48ec868b82f2b4aed8ca96df2b848297fe424d99f81fde76d9f0",
+          "observed_publication": "2026-03-12T01:29:18.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1065",
+          "raw_sha256": "eaef1b021f129aee3da5962659244cafc41344513d10750393eefdbcf32a2e4e",
+          "observed_publication": "2026-03-12",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1207",
+          "raw_sha256": "7f2f3f76896b7dd30954e071519f95ab84a2c6d91417362f787d617f79278e90",
+          "observed_publication": "2026-03-17T22:18:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:121",
+          "raw_sha256": "c3ade32ea92ad48050d743b8b1f65f693d6b6c773e67e024bcc6cdf60c8c158b",
+          "observed_publication": "2026-01-22T23:04:25.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1217",
+          "raw_sha256": "58827b59c9362ea6d379f706f3a3cf9af26d9b09f87cb3c261c1543b762ea450",
+          "observed_publication": "2026-03-18T09:04:38.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1264",
+          "raw_sha256": "44b212655d391226c429c2d95b5c9d28b4eaa405d7047daee7a05221c3daa22d",
+          "observed_publication": "2026-03-20T18:29:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1301",
+          "raw_sha256": "4e020fd9d00f83c7e91d6e366950e927857d78e394b7eb6ab55c9e73bff950f3",
+          "observed_publication": "2026-03-24T00:02:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:143",
+          "raw_sha256": "df12b6f016e3723d22ba40e1c93f97a5446012a68c18a90d18fe963a24091df2",
+          "observed_publication": "2026-01-23",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1484",
+          "raw_sha256": "7cfba4a2d38e2fe8cda2d2fe483fcfc4650b52d0ec3473676e0e0965a239e345",
+          "observed_publication": "2026-04-03",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:245",
+          "raw_sha256": "55e4dbf366c3fbc7b92701ea01d63cfc6213524a477f014755691c09744545ab",
+          "observed_publication": "2026-01-28T17:44:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:247",
+          "raw_sha256": "37766e142552ed2a2b110633baffc33ef74ea7c214e34a700baae4462b72878d",
+          "observed_publication": "2026-01-28T15:30:30.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:279",
+          "raw_sha256": "0f02d1a5fc533f9600c2448287a886cbc57ca531f070fdd31f3dafc505a3504d",
+          "observed_publication": "2026-01-29T08:01:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:392",
+          "raw_sha256": "c98cbc1a32c59045f7a08861f2175d7dcf9a0a177965938a7a43a50a9b5a8b09",
+          "observed_publication": "2026-02-04T16:49:25",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:394",
+          "raw_sha256": "8c6dc1453c2e2551a568c21dfc2d3892f1081e09d7157e046e49da2e1c0c8fb0",
+          "observed_publication": "2026-02-04T18:04:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:454",
+          "raw_sha256": "c0840983b5c06653582f81e4b70aa4a32cef4707d8df083c3edad60ca7b9082e",
+          "observed_publication": "2026-02-06T09:56:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:499",
+          "raw_sha256": "e79af88ed5561a83aaeeed9c404bac9e235fa190daaf7c7b5e008339a7bd9b34",
+          "observed_publication": "2026-02-09T08:24:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:530",
+          "raw_sha256": "7bab357f73a63ac1937b1544719cea5e23accb4c100aa4cd8664adf29ab0f40e",
+          "observed_publication": "2026-02-10T19:18:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:618",
+          "raw_sha256": "3b98ab3f0e6f09b180340d743907d147d2c1c062cd8e82d2cef0ee4dc8ee7112",
+          "observed_publication": "2026-02-16T13:47:03.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:62",
+          "raw_sha256": "99c45917757eace47423a4a9b5cadc96369ec582938db7d40f35320cbf0a5ec6",
+          "observed_publication": "2026-01-18T23:58:37.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:64",
+          "raw_sha256": "fbe7506266041d87cd93935730755667d8cadc48b0b4b7f33cdc0fcd878a033c",
+          "observed_publication": "2026-01-17T09:57:32",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:673",
+          "raw_sha256": "a5ec3d0400516e96f43f7dec3f7bab83def686be283ae58398c0d442764eb2a8",
+          "observed_publication": "2026-02-24T07:46:52.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:682",
+          "raw_sha256": "948d58f13005d9dd6dc5730227f41a8b26d97dd8dcd1d9f82b4bf78530ccf9f2",
+          "observed_publication": "2026-02-25T07:48:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:686",
+          "raw_sha256": "2815fd2f0fdac1740522b8aed42ecc7dd4cb09b217df94f4f902a4667a4f1537",
+          "observed_publication": "2026-02-25T18:24:03.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:715",
+          "raw_sha256": "cdfb6daa57c98e1a530ecab2997e7f4f9f71d405710de286c4e0129a8be86071",
+          "observed_publication": "2026-02-26T13:43:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:716",
+          "raw_sha256": "acb7ff43145f6ade2a592a0d7f5c08c916a24ab3b09d0f6da76d509dfcb56370",
+          "observed_publication": "2026-02-26T13:43:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:802",
+          "raw_sha256": "ac9a30968ae2729a71bc0d57596016fed23bfb6105236f17eb881aa065dc8f4b",
+          "observed_publication": "2026-03-02T07:06:34.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:913",
+          "raw_sha256": "eb6bbb3be6af76f0aecef60887585c55cce18ec0f4d6441cdb517f05cbf47786",
+          "observed_publication": "2026-03-05T19:48:10.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:977",
+          "raw_sha256": "199f60c5bbe4930275b2bbc5e6b692c49ba11fb1de014ed06b4d7d95aadc898f",
+          "observed_publication": "2026-03-09T09:29:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "600050",
+      "company_name": "中国联通",
+      "industry_code": "730100",
+      "industry_name": "通信服务",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:100",
+          "raw_sha256": "bb13f3971a894732a872e469d8185222880a42a5d6cc2303ea8908c035aed9ce",
+          "observed_publication": "2026-01-23T15:06:35.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1031",
+          "raw_sha256": "1561b4aeca3cefc6e4e34d44404bc8d002c2964279224a6cd8ddb7dd27618fb4",
+          "observed_publication": "2026-03-11T09:33:09.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1075",
+          "raw_sha256": "5663041150d7dd70c59b5560c1a491c3f06a13d25addd6d9799ab2638b9ead92",
+          "observed_publication": "2026-03-12T11:06:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1083",
+          "raw_sha256": "7932c41aaa70bb030d93a99e431d938faf275947ca6c9fa4ebb6074048a1dc15",
+          "observed_publication": "2026-03-12T21:16:14.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1105",
+          "raw_sha256": "d3f4de698112df96dbdd00af2d996c01a03ae55dd339b36ad1db6cae8d824b36",
+          "observed_publication": "2026-03-13T13:09:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1130",
+          "raw_sha256": "531981ee84f38c6d0a0eca83fd3c3dae2755b2ab22306609a4c973f745917709",
+          "observed_publication": "2026-03-13T13:34:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1139",
+          "raw_sha256": "ee5430034008ccc7bc47d457d5008c4686e157978426aaa6072386a0826b70d1",
+          "observed_publication": "2026-03-14T13:31:49.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1174",
+          "raw_sha256": "6324ee4a65e8e7b611f30a4bdc771f934ec4d920ee88597e125c06917f8ffa03",
+          "observed_publication": "2026-03-16T16:39:58",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1181",
+          "raw_sha256": "5320dff02c590ca7ae01765a0e168291682017495744e17f705cce5f2822af29",
+          "observed_publication": "2026-03-16T16:20:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1194",
+          "raw_sha256": "27edbf0e7f31a2a5d544fb62d36fbbfb66460b0d5a766a842a94550ba43d9a4a",
+          "observed_publication": "2026-03-17T10:03:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1212",
+          "raw_sha256": "f6401ba303465d4a360cc1aed04d0eaab3a525206512506992dd00984fc7ead6",
+          "observed_publication": "2026-03-17T10:25:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1214",
+          "raw_sha256": "837aeea988c45f2f8ec8bc3853a8d704ab98cd40d2bb2d9337efefde2d913682",
+          "observed_publication": "2026-03-18T06:58:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1239",
+          "raw_sha256": "6ea0857c46376f26a46e622568b588a7bcacf7108f69e8262796808cc702dff8",
+          "observed_publication": "2026-03-19T10:40:04.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1279",
+          "raw_sha256": "d819b9fd176216f40b5b231dec5603b1c0e4a85b0cef048eb4628f03a3f36818",
+          "observed_publication": "2026-03-20T23:57:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1289",
+          "raw_sha256": "6790b5be02726cc8fd1b75ae6fb09c47058380cbba8f08dc5dd82719ecff875b",
+          "observed_publication": "2026-03-22T01:07:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1311",
+          "raw_sha256": "bcdc8a217d78ddbcb4734fe6f4f2c012478ab45cb304e621f4842b4631c1785b",
+          "observed_publication": "2026-03-24T10:59:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1327",
+          "raw_sha256": "88b1602be2f6a3ddbb5ff1ab34c01864316e23bbe4d5e858638052a9337a8a16",
+          "observed_publication": "2026-03-25T13:40:42.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1344",
+          "raw_sha256": "e4bf9422b341233abca6c25db24386fbfae38c272d6423ec4fb62799367cd641",
+          "observed_publication": "2026-03-26T07:32:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:136",
+          "raw_sha256": "18640941d581be4f9305da450fd64bb9b2371b6c9ed18bbc65b2767e1ce3db58",
+          "observed_publication": "2026-01-23T09:51:45",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1379",
+          "raw_sha256": "c94a5b36ca80e8b7e6e748943eba294c32b94e0c538d6d1688a92124a373f40f",
+          "observed_publication": "2026-03-27T12:29:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1386",
+          "raw_sha256": "a29d33e5c7e5617b48d08b0db81e89db4b125a53dff2ba70b197c7a37204ef8d",
+          "observed_publication": "2026-03-27",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1445",
+          "raw_sha256": "b4335f3c62685657d3ae68e2924ceeb58586f5f4cf7b5162617aba15ff68f8fb",
+          "observed_publication": "2026-04-01T09:13:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1485",
+          "raw_sha256": "28e4d5e19207d1b24dc6704f3abf8aa00c0ce03e3b66cebfee8ddf2f622cb910",
+          "observed_publication": "2026-04-02T11:44:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1521",
+          "raw_sha256": "9245b01fbe45f195ab988b10790cca486cdb4a0f38d262aef1de65371eb42acd",
+          "observed_publication": "2026-04-07T11:33:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:161",
+          "raw_sha256": "28b6e8119f5074b9163f51eaa14548cb7b4f45ec691109e3f40b06241e58574a",
+          "observed_publication": "2026-01-23T20:57:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:194",
+          "raw_sha256": "fddcb01164dd1f2746f087fa19cc2173745b8f2d1d29188e1343da8f92002950",
+          "observed_publication": "2026-01-26T16:30:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:209",
+          "raw_sha256": "dadb2824e99d19006eb92fda3c73afddd74d4e2859cc1efb02cba8aa007dce4f",
+          "observed_publication": "2026-01-27T09:36:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:256",
+          "raw_sha256": "93fd1e81e8229922dda2ee748961efe4b86a0a4fc7fa01f557fc842c430643cc",
+          "observed_publication": "2026-01-28T16:48:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:285",
+          "raw_sha256": "837f8dc39919427f06f1506bd784a96582ee87d29133d20b9cbf5be733f9913c",
+          "observed_publication": "2026-01-29T07:20:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:293",
+          "raw_sha256": "be4b11c5da3fc8c9b74e257855926d4684e85c59ece3b5b9dc2984e9d9375237",
+          "observed_publication": "2026-01-29T07:20:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:419",
+          "raw_sha256": "ce56f6be318bcc59951157411dd8a170f3dc2ea8d867082dc4da51941559fa0d",
+          "observed_publication": "2026-02-04T10:48:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:420",
+          "raw_sha256": "95d9b4d52d822847b81a6d4c26d3061a8bf543fc919a5b530aa5e83e2449a367",
+          "observed_publication": "2026-02-04T10:48:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:433",
+          "raw_sha256": "673badb3f9659247c9977874c1462e7888f674874a8181bc708cb1ab36c8f6ee",
+          "observed_publication": "2026-02-05T19:32:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:450",
+          "raw_sha256": "e7174ce11799539c3ed83f84ae1427049aaaf27f5e608c07bb4467f341669d8f",
+          "observed_publication": "2026-02-05T20:21:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:473",
+          "raw_sha256": "6c0f39600e6a9d572953b38df170aa6fa039b5037ae1651866c9fb597c563007",
+          "observed_publication": "2026-02-06T19:23:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:542",
+          "raw_sha256": "73d84900517982006fc3dcc8db33d8e2f87498ed7158663488455a4d011dc467",
+          "observed_publication": "2026-02-11T07:14:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:553",
+          "raw_sha256": "c8e6ff26fe7f34956af9d326c8c504250654c00b5c104afdbc25eb2302eae3d0",
+          "observed_publication": "2026-02-11T07:12:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:572",
+          "raw_sha256": "c8f44734e478871ce66723a004faac88892feb16d7fd7f1e26edecd1b1c2c31f",
+          "observed_publication": "2026-02-12T07:25:19.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:615",
+          "raw_sha256": "9db7a9a5dbbf5257a90b4acbb3d1fe7f8dc00a47972dd63f0adc239642d2c0da",
+          "observed_publication": "2026-02-15T18:26:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:622",
+          "raw_sha256": "ec33b35c0b830d3133469828a0b5a316912f9ba1d0f4d2a6f62926972d4a9ebd",
+          "observed_publication": "2026-02-17T06:04:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:632",
+          "raw_sha256": "37e6014180155fa0bc9265136f5aa55a05c069485e14a29f478316eda3b3ef73",
+          "observed_publication": "2026-02-18T19:54:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:747",
+          "raw_sha256": "b1c4b14cf4c93ff97bdb7d0ca9e243aec6a10d617a09e3d3c20cbe687145f80b",
+          "observed_publication": "2026-02-27T10:25:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:76",
+          "raw_sha256": "667894f5d9ac290447213076080e4adf70e61a87e036b64053608282e67b7b52",
+          "observed_publication": "2026-01-20T10:05:32.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:778",
+          "raw_sha256": "7cefe28c4f9d10502cfb6d22da12578e07bc290ed4113c8c6d027c21ea0b4714",
+          "observed_publication": "2026-02-27T13:57:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:793",
+          "raw_sha256": "38c32197317b3ebd23f7bd2041ae96c2a52c11d1671b76483e6c7d2e1559af18",
+          "observed_publication": "2026-03-02T00:13:12.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:832",
+          "raw_sha256": "07736675eafc9854c2d5dcc93c8fc65a9652a84648037fd0565a9127609ef4c7",
+          "observed_publication": "2026-03-03T08:03:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:834",
+          "raw_sha256": "45292e4c579dc71065d0b0cce34b112db0f1d9f2d76911c24d8026285d3d972b",
+          "observed_publication": "2026-03-03T16:28:25.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:865",
+          "raw_sha256": "0dd51fd5c33f253750dfd657183e38ee34af4477f69e2b82ae4a0caa3f1dfd9d",
+          "observed_publication": "2026-03-04T17:45:34.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:883",
+          "raw_sha256": "1343549d595a22c2be44f2f747bb6a769598f00b6eccead9c12c10bb6a290f96",
+          "observed_publication": "2026-03-05T11:42:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:890",
+          "raw_sha256": "fab0990fe3374778e08d2419092094f0a67f52701de01c16435def2b996a8e80",
+          "observed_publication": "2026-03-05T09:59:28",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:928",
+          "raw_sha256": "f21bd65f4219bf0bb833d7c8984bb3143e310c770dc47a3b07ea65d650716c63",
+          "observed_publication": "2026-03-06T15:34:14.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:982",
+          "raw_sha256": "31ec6127c14ed30533bf86482686372457e428b7cb1ef6f281fda46a62f77b59",
+          "observed_publication": "2026-03-07",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "601728",
+      "company_name": "中国电信",
+      "industry_code": "730100",
+      "industry_name": "通信服务",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1009",
+          "raw_sha256": "eaaf0acb09bc1122ae993f9af47bffb72b1ba19ffab58e3a9b5494570a45e3c7",
+          "observed_publication": "2026-03-10T11:19:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1029",
+          "raw_sha256": "38e0c3490f6bb1f49f10ff193d50c817ca5f578774eed752c525ceb4281aa9c8",
+          "observed_publication": "2026-03-11T07:18:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:104",
+          "raw_sha256": "e6ae520294a3ef4bdb1a4ccfb825950af068885b34efb0c0d4c0024e1bd60cc5",
+          "observed_publication": "2026-01-22T06:33:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1077",
+          "raw_sha256": "568f8068649e28a1dad76ba9dfb6e669b14281d24f210bebc32ca5ce28f8e12a",
+          "observed_publication": "2026-03-12T11:14:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:108",
+          "raw_sha256": "e053ef9b7af502ceea7cb76366f3caef466b7d0d89c352d219c7cb0f26d17857",
+          "observed_publication": "2026-01-22T20:29:29.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1108",
+          "raw_sha256": "b2b747c75ba8cef366c4d376d8bd8cd1d98f24f110f13ed8d43f601b1c30b938",
+          "observed_publication": "2026-03-12T16:03:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1134",
+          "raw_sha256": "0b2969b7777c55d76156731f273e666cfa83aa90fa0a57de4f3ae1d22cb9eddb",
+          "observed_publication": "2026-03-14T05:39:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1166",
+          "raw_sha256": "ac8de405d3b8e3953c9fbb94d46f26b9921464b45d1815a507a9877cc842ea86",
+          "observed_publication": "2026-03-16T10:03:14.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1167",
+          "raw_sha256": "84b8aa289bb845971bc6e4821cc8f97f2498843876bd0e50f23276177d3eaf8b",
+          "observed_publication": "2026-03-16T10:03:14.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1196",
+          "raw_sha256": "87f9b703ac57f5df993441dc5c6d3945d079da27a8c88eaf9814be07840943e1",
+          "observed_publication": "2026-03-17T10:14:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1231",
+          "raw_sha256": "584e8959ca1df0999fb0c7b488ec67cdb20b43238424ad5b9bbb2725f4324c71",
+          "observed_publication": "2026-03-18T17:23:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1284",
+          "raw_sha256": "d4ee78e14e63baf636bb64620df4f74a7ea3df8a2e7afda3cfaa526d6011a9e2",
+          "observed_publication": "2026-03-21T08:14:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1321",
+          "raw_sha256": "92adbd4f84decc67baa4ecc9dea45b4efb91220ffeca0b4a9d3ae43d4a3d2728",
+          "observed_publication": "2026-03-25T07:55:09.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1346",
+          "raw_sha256": "3a5e5b32a6d9030d3816a0e6c5a9190448b9bc4a3681bc3c116f9f27d1d1ca90",
+          "observed_publication": "2026-03-26T09:00:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1365",
+          "raw_sha256": "c4263e6ed9e9b70e943070e1aca5341ceaefcce523ab8f9fc9ad3e9c444df235",
+          "observed_publication": "2026-03-27T00:15:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1394",
+          "raw_sha256": "a1f1f73aa2f086132f9b74711ffa4ab4c90b22ef15223f4cb061ab65b6fda663",
+          "observed_publication": "2026-03-28T10:03:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:147",
+          "raw_sha256": "20b932a40205b739ecfca0534b656ce00c5766f46f856a4a3d0f6f48885d68e9",
+          "observed_publication": "2026-01-23T13:32:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:148",
+          "raw_sha256": "8626dbb016b5fcb346c7dafceba08ec6e57a6e690baab75a1c9eaa50bd9f714c",
+          "observed_publication": "2026-01-23T06:44:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:178",
+          "raw_sha256": "97abecc07218cbe42cf0b6efe75708d9aff222879fb2f460472c70b933632963",
+          "observed_publication": "2026-01-26T14:50:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:179",
+          "raw_sha256": "9e93373e46e1a78e826975eb8af3597aaa04646a8e732f881b2469e4a7b478b8",
+          "observed_publication": "2026-01-26T17:37:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:202",
+          "raw_sha256": "480dce6af24ef625e0b67e9229e33b85f681bb5839bdaaaaa330dd834641be35",
+          "observed_publication": "2026-01-27T14:17:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:223",
+          "raw_sha256": "5265429a2a97f3e0d1ed487800e8b35d5d54576839e02790885bd9b5283a1c95",
+          "observed_publication": "2026-01-27T19:16:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:233",
+          "raw_sha256": "650ee214a0f92626a220878299104c89e7fb311817d8b50167df2d983b7bc2c8",
+          "observed_publication": "2026-01-28T15:54:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:265",
+          "raw_sha256": "eb58263e0bf0a403971782985b74dc76438adea03b7baa2d4403941af6073ba7",
+          "observed_publication": "2026-01-29T13:21:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:270",
+          "raw_sha256": "0e58defb525d22077fa9fdfe3e99b8a43e38e9a5b0ddaff442f5a82a97440ff8",
+          "observed_publication": "2026-01-29T07:20:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:302",
+          "raw_sha256": "42ad514be2e4702c633a759b06751c30ab1ed4d07e9fcb0d81d3f3ca7be08895",
+          "observed_publication": "2026-01-30T10:56:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:322",
+          "raw_sha256": "08a4dc1412252f665d442caf740f80938e1f6bb546ee8684aa1be75115ffd116",
+          "observed_publication": "2026-01-31T03:49:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:376",
+          "raw_sha256": "cc7f76702bd09cec4d7edaf4be0eaeda77a5c152cfd841e8369f42cd3e3fc0bd",
+          "observed_publication": "2026-02-03T11:34:18.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:407",
+          "raw_sha256": "996dba7088515391c73713b996970697e18337b2a4339795e19570fe483f847a",
+          "observed_publication": "2026-02-04T09:15:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:434",
+          "raw_sha256": "d7d38b70a4fbacd4376a102fe406e2c808d89a0b5e7b0539e273535f2f49ecda",
+          "observed_publication": "2026-02-05T19:32:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:453",
+          "raw_sha256": "dd013c6983454ea68ffb04f96f4232bf3b91237d885a3288adb11cf49090149e",
+          "observed_publication": "2026-02-06T10:18:22",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:466",
+          "raw_sha256": "73895c3b701f3c23f76fbcc4ac2b6e6a0f767fab4282dca229139ce756894c43",
+          "observed_publication": "2026-02-06T07:28:36.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:476",
+          "raw_sha256": "06d189793f822e6a3857c047161e64b1c69542b6a5ebc9fc435c1c04300e672a",
+          "observed_publication": "2026-02-07T22:11:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:498",
+          "raw_sha256": "ea3ac29fe05cf7b4cdd5f186dd9a09720e83e3e2d8533dae51983d998c568120",
+          "observed_publication": "2026-02-09T10:52:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:549",
+          "raw_sha256": "f79ba3a6779b89e2af01846752596a0a230cc327030fcadb937bba95bad0a467",
+          "observed_publication": "2026-02-11T09:56:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:584",
+          "raw_sha256": "9eff27681facb483a181d2261398fb502027b04f56b51704e7dee6cd36a4a084",
+          "observed_publication": "2026-02-13T02:09:13",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:601",
+          "raw_sha256": "e21e562788ec692c950480988648da1092f825c0551f53880ebf6bd5e413c02e",
+          "observed_publication": "2026-02-14T03:01:31.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:611",
+          "raw_sha256": "b2c0d68cbb4b57d0f5594c63f8161fefc34756f609dbcf4ba3b771c8b4a317bd",
+          "observed_publication": "2026-02-15T13:16:01.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:625",
+          "raw_sha256": "1a8d67ec917e4733f4280cb693ba1747f83cb3ecd4434681468cd58c653b389b",
+          "observed_publication": "2026-02-18T19:54:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:688",
+          "raw_sha256": "1e989ae3014b707fc0b9e0699ec2da94975ff3f047698ccacf1ca67ce4d19bc0",
+          "observed_publication": "2026-02-25T20:21:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:713",
+          "raw_sha256": "7d56160ba0f25f4f48cc74be055d70a542872dcacc95333c9415bbc35bfb6c3a",
+          "observed_publication": "2026-02-26T16:40:34.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:714",
+          "raw_sha256": "8d49d84ad17cb73008e7d9e84ba323b89dc8269cc7e926fb3fb009bf6d24c9ae",
+          "observed_publication": "2026-02-26T17:48:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:738",
+          "raw_sha256": "832bff02165b5dd795eaa1312154e608860fe97167158a0e1c01786831b12684",
+          "observed_publication": "2026-02-27T16:10:26.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:773",
+          "raw_sha256": "8a3d20c5ec639d7716385e893148b5eb5650fe1d441709dcb4608eca6382973f",
+          "observed_publication": "2026-02-28T18:06:08.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:814",
+          "raw_sha256": "75a03131762ad56f00763297d77054ef193dda3661a98f243184c76f646aed32",
+          "observed_publication": "2026-02-25T23:42:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:815",
+          "raw_sha256": "9dd0c348d7851b63a99fc32f7318297617d2647b9faea01c57425b230b6bc95a",
+          "observed_publication": "2026-03-02T18:00:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:846",
+          "raw_sha256": "3223398c92f22eee47161dee04b94e7fc9cf0e97942819b647de528c43332642",
+          "observed_publication": "2026-03-03T15:56:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:847",
+          "raw_sha256": "402276c690a8b807a51945808871c0da944fd58d4ae87469c6f7c082673c5f26",
+          "observed_publication": "2026-03-03T16:33:15.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:872",
+          "raw_sha256": "15c5c6a6311d85a6e7f9822c945320a87d2d0e0830b33d6af494aba66dd29dd9",
+          "observed_publication": "2026-03-04T17:33:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:910",
+          "raw_sha256": "629cc3486fbbf830a625e70a2a00738cf25eef5e5a9be73e8665bf15fcf51f5b",
+          "observed_publication": "2026-03-05T19:16:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:940",
+          "raw_sha256": "ee72f4f9d4c45988538c19aba47d4afd475b9aae82b5db0678f8d5b5f38a4b62",
+          "observed_publication": "2026-03-06T19:48:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:941",
+          "raw_sha256": "36823f146c1a9b1294303ffb5178fdbea567816c18e9f0d7778dc50a99b66b95",
+          "observed_publication": "2026-03-06T19:48:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:955",
+          "raw_sha256": "6d969232be60ace7647f38ec15247db2369f4e80b993e0716a7c7184f2929d47",
+          "observed_publication": "2026-03-07T23:12:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:956",
+          "raw_sha256": "22b41e9294dd42d78637b77398caf3a7808c24e31d5f9b66fe214d03cb116fdf",
+          "observed_publication": "2026-03-07T20:48:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:976",
+          "raw_sha256": "c6be6f5d7bb84c5b9f808150de5fee80d25dab74d08ea1b7ecef43c024d7def5",
+          "observed_publication": "2026-03-09T09:17:16.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:98",
+          "raw_sha256": "21052a48ecfa013a25692a1c99e234db4b3699affa442dd8043c3a66174f2e82",
+          "observed_publication": "2026-01-21T21:58:08.999996",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "600276",
+      "company_name": "恒瑞医药",
+      "industry_code": "370100",
+      "industry_name": "化学制药",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1023",
+          "raw_sha256": "8c90017a191696d32a872e1569378d2026ed5a8d7ec1f91cfe128b9c4ed3f01d",
+          "observed_publication": "2026-03-03T08:03:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1040",
+          "raw_sha256": "fbf3cd984a0a797e00fdb3ecc6270f95759ffbb02158e399c86a2b1b36b9e2ca",
+          "observed_publication": "2026-03-11T17:03:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1060",
+          "raw_sha256": "01c4fcdba8ca76dd2622e3797a2e93f7eb829b50d9273019dc1acce40e076e93",
+          "observed_publication": "2026-03-12T08:16:21",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1116",
+          "raw_sha256": "ea17542f5f0c985eed12cd734b14bcb32cf3fcc1a39f80bcb4fa34d17589d122",
+          "observed_publication": "2026-03-13T17:21:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1141",
+          "raw_sha256": "23da5e9f0ebb91f7f5dec8ea6596ca58ff7332f599c9843add304b15d617face",
+          "observed_publication": "2026-03-14T08:48:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1195",
+          "raw_sha256": "1a2eeed611deebb3c49db92513f413c505a45f603839ff47ee7eba5fb9910b90",
+          "observed_publication": "2026-03-17T12:31:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1235",
+          "raw_sha256": "76218677f5520968ac97542e5f10d63429afd7dd1843f6d8b90664e4b3d03281",
+          "observed_publication": "2026-03-18T20:28:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1262",
+          "raw_sha256": "d52cac96274d7a2e09c3f81647637acfd9d3c7c42d32a14363bbae967f5b002a",
+          "observed_publication": "2026-03-20T16:56:56",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1354",
+          "raw_sha256": "8871151b5e71394a59ed16a3a3268654537c9edf602d6f909604d2e74427ae24",
+          "observed_publication": "2026-03-26T16:41:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1376",
+          "raw_sha256": "8d5a1ac0a06521761fec491717e275a12fa167b02ba9789c693d8f0afe8cb4a1",
+          "observed_publication": "2026-03-27T16:02:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1401",
+          "raw_sha256": "0173f788c35e4791e8aa1ccb812f44b40667459e93a561bd39463d9b659bffe3",
+          "observed_publication": "2026-03-29T09:24:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1429",
+          "raw_sha256": "6acae60fc46adff10fc1f28e091c7772d5d69128d61f5a20518cafd78af0cd25",
+          "observed_publication": "2026-03-31T10:15:18.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1475",
+          "raw_sha256": "9abbdee45c0dc89307808bd05bfc38436c081b02423ed27075ba7ef32b331a36",
+          "observed_publication": "2026-04-02T16:47:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1493",
+          "raw_sha256": "7c78f936a30be4ea66a389e9a6ff76a54abfb87d0cf634494f10dd809af9e8da",
+          "observed_publication": "2026-04-03T11:59:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1522",
+          "raw_sha256": "4b3ead731b3cfa287a3a0b306e495e3176e79ae8f49f4f7523b4f0fb45ed4bbb",
+          "observed_publication": "2026-04-07T08:01:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:154",
+          "raw_sha256": "19574b51eb6f3b646c96c77fd036060b7ac80f166c282a900e7047361d53cc94",
+          "observed_publication": "2026-01-23T18:11:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:244",
+          "raw_sha256": "a03d0e462ae47aeaf0324feada1b5ab13e9fc6576d36915ce943a08ae4656248",
+          "observed_publication": "2026-01-28T14:37:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:263",
+          "raw_sha256": "e3a214f9cbb169cd0cf8e8601d075851090fa6537bfb5865f7d17b6b2dbe75f4",
+          "observed_publication": "2026-01-29T16:36:26.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:308",
+          "raw_sha256": "4fed798d94989d7263d5df1857d68283e3a34eae9c39fa9f1fe4c2573e2c615c",
+          "observed_publication": "2026-01-30T17:03:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:340",
+          "raw_sha256": "ff218e6e6015c4f329aa046b5cb7599814099887bccf27da659e2b5a6d27466a",
+          "observed_publication": "2026-02-02T14:15:13.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:37",
+          "raw_sha256": "ae669b4242a669b0d9e4883208abb19cc3d716ecb7a8399696b95b36b546e309",
+          "observed_publication": "2026-01-18T21:22:08.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:375",
+          "raw_sha256": "300534433358d2d42370cf89429b26a848a544595a9343310d82c693be86c76f",
+          "observed_publication": "2026-02-03T20:46:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:406",
+          "raw_sha256": "ad469bb01426c457858beea53252f389ce51fcbda8af1f3629a21a70dd043d53",
+          "observed_publication": "2026-02-04T11:35:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:440",
+          "raw_sha256": "cf60f91427aa1f818280fea725310f468f3803b811b4e61cd19465c34f066a1e",
+          "observed_publication": "2026-02-05T16:44:30.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:456",
+          "raw_sha256": "58a2fd841a8c82b7b9c2efcb7f082fb99f8fd44704b46709365917aa9bfa1547",
+          "observed_publication": "2026-02-06T18:47:58.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:510",
+          "raw_sha256": "57fae23bf0752ce31777d4c6b4eaaeea0846a905ac0b79bef3afe136238a4439",
+          "observed_publication": "2026-02-09T15:47:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:524",
+          "raw_sha256": "a358a0161628c3414566ea6fafeeaa7372bf310cce5bd265b461a2bee00e8c34",
+          "observed_publication": "2026-02-10T16:48:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:54",
+          "raw_sha256": "b7fd6c090ed7273950d83526554275e05779d5184c399264e79de430b4107fe6",
+          "observed_publication": "2026-01-18T21:06:11.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:568",
+          "raw_sha256": "4370d53340b8049de5550cff75d83ecfa63be80d383599ad66d53387bf175b6e",
+          "observed_publication": "2026-02-12T12:09:48.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:617",
+          "raw_sha256": "4ab79a471d4702d850a989b54404720e816e719a1bc24a31b060f0a7d5e5f484",
+          "observed_publication": "2026-02-16T07:21:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:633",
+          "raw_sha256": "dbfb884998887226ac1f2b733e25132703884dccc0e257dc64878a0b1faba478",
+          "observed_publication": "2026-02-19T08:01:36.000005",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:641",
+          "raw_sha256": "c049db02d370fbd8687b3d2fe43a2ef5c09fa1b549c92ea200f510c54662c7a1",
+          "observed_publication": "2026-02-20T15:00:18.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:651",
+          "raw_sha256": "13f3911c0b161becaaa0facf5440a2790c75af570d59da0fc4cc7ca0bf67d378",
+          "observed_publication": "2026-02-22T07:48:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:670",
+          "raw_sha256": "4bc5a1b4f6c7cbbd7cc39c7bc98eb6e0533e28a9d882b4199b0c052e58c5f879",
+          "observed_publication": "2026-02-24T16:39:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:694",
+          "raw_sha256": "ac985648f46f6155e71b6574bbbd86554addeb65bf83ffcdaaf739ff519e2e38",
+          "observed_publication": "2026-02-25T14:15:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:7",
+          "raw_sha256": "9809256c9c527e3b47d04f32f0366016c079fc03f11d6ee4af7a75bea13e1b42",
+          "observed_publication": "2026-01-01T10:30:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:771",
+          "raw_sha256": "1c1913aeef3d6cbf906f8ec4fd2fa2ff519bf49dce9a77ada94dad22c3452e4a",
+          "observed_publication": "2026-02-28T08:08:00.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:860",
+          "raw_sha256": "14006b9fb533d5a26208addf5d3d010466a258e2f429b311226b740c4bf734ee",
+          "observed_publication": "2026-03-04T07:14:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "002460",
+      "company_name": "赣锋锂业",
+      "industry_code": "240600",
+      "industry_name": "能源金属",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1035",
+          "raw_sha256": "07a4031d1141104c6a611ddff33f8f758d91e8523ab9177e858480f0a9a6daed",
+          "observed_publication": "2026-03-11",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1123",
+          "raw_sha256": "e035f7c48c8e0383b33f9ccfd939e1164c895203e9f4e31feab3596ba97ed1be",
+          "observed_publication": "2026-03-13T17:42:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1351",
+          "raw_sha256": "8f14e778f5d63450bc5bff9a1e58a7873898785464f8a52e599825e40b5aa1ed",
+          "observed_publication": "2026-03-26T14:57:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1426",
+          "raw_sha256": "67c2bfc5c24b12d9ed903e6ca06945868153651a6942a00d51e1e348d5b9e2e9",
+          "observed_publication": "2026-03-31T09:27:21.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1444",
+          "raw_sha256": "972ce7692aad959e252f1be2a84d25150576f1095dcc03abab2a17323004b3d4",
+          "observed_publication": "2026-04-01T10:45:45",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:304",
+          "raw_sha256": "6eeb8c2bdbf10ce617b51f4a526f01092520740d9d4654b1c9621674318310ad",
+          "observed_publication": "2026-01-30T18:04:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:398",
+          "raw_sha256": "e33c26eb46e7fcc3fb365f46084fd49ab499edcdddb8b784012307820693ce57",
+          "observed_publication": "2026-02-04T10:45:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:558",
+          "raw_sha256": "b520b313de4d0a39cc9feaf4156a72ec930010d35199490306f5f3450d173f92",
+          "observed_publication": "2026-02-12T11:15:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:609",
+          "raw_sha256": "53ac6b577ac32637802e086d1d67765da07bc3d818922e9d39a88ef1c72d1b31",
+          "observed_publication": "2026-02-15T17:20:45.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:623",
+          "raw_sha256": "7f41b05053669ea192ed546858d15a2a411d477894180114f61f2de93baac21b",
+          "observed_publication": "2026-02-18T09:38:29.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:644",
+          "raw_sha256": "1d5b5e5c7cd8691528558df55e9a830aaffbd4ae5c694e24fedce276fa91562f",
+          "observed_publication": "2026-02-21T08:44:06.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:666",
+          "raw_sha256": "e3d8d52dd9a0fc083084296a6099063a56e0d0055d4f0b34376b0ed64403a42f",
+          "observed_publication": "2026-02-24T16:09:16.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:709",
+          "raw_sha256": "1e35384ca5eb7af3e52a0cea9bd4edde60bc09fe33b1c4f36175d61df98d2222",
+          "observed_publication": "2026-02-26T14:50:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:735",
+          "raw_sha256": "f6e806d93bfbca59da7f77ac38e78792c313ac85f88fc2cf24fbb635355228bb",
+          "observed_publication": "2026-02-27T15:51:42.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:796",
+          "raw_sha256": "c6acfba4ab32de5be04d8f1f38306f26c3f914c390391361f8d047b77d8058b1",
+          "observed_publication": "2026-03-02T11:45:14.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:933",
+          "raw_sha256": "826bab9a2f62e46b49037f7f2661c9b0551007278fe7268e2a329a2d6c5d0621",
+          "observed_publication": "2026-03-06T17:10:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "601127",
+      "company_name": "赛力斯",
+      "industry_code": "280500",
+      "industry_name": "乘用车",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1005",
+          "raw_sha256": "208af169031a5732254de944a4706208e6b1790882c5fda339a841b7647bce61",
+          "observed_publication": "2026-03-10T03:17:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1006",
+          "raw_sha256": "1302a628fb8a4d2b7528ad13554a5f9170574df7ccb78c8b0d8c794625871253",
+          "observed_publication": "2026-03-10T10:11:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1032",
+          "raw_sha256": "affd45b3e50b3580033dbadaae08af8a015846d08077acf9776ec7861842fd93",
+          "observed_publication": "2026-03-11T10:54:36.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1048",
+          "raw_sha256": "7e69d1815a9fd8d530e707d3d71355bbd016f0b598d28dda3801b8f62b37009d",
+          "observed_publication": "2026-03-11T18:29:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:110",
+          "raw_sha256": "16ecd2200c05a053bda5031e3db45a0fb51dbc3cde0c3ba600374237e802af06",
+          "observed_publication": "2026-01-22T18:29:39.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1164",
+          "raw_sha256": "82435b1a24950d7dce4d7ef9a6c5103ba2dd1d2060f50a565e5a5653cfbc5870",
+          "observed_publication": "2026-03-16T09:36:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1200",
+          "raw_sha256": "4e42491bc15489847edb4657d4e2d28ece71a40af62dfae8a569fc46f607ca0f",
+          "observed_publication": "2026-03-14T17:03:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1220",
+          "raw_sha256": "28746c8c779abbfad1625a430eaf97c8c000a18f113c5ebd93e39b0e0c7d6cb7",
+          "observed_publication": "2026-03-18T12:49:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1278",
+          "raw_sha256": "dbf5b462acbd082def30bc539da7fd222266c1e16cb2530c033b3b60c12d3a32",
+          "observed_publication": "2026-03-23T18:54:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1313",
+          "raw_sha256": "6e5f6fe330a3acfce6248b5f821383b7e6ef1b243598f760b0f22062ce732cf8",
+          "observed_publication": "2026-03-24T14:09:13",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1316",
+          "raw_sha256": "95618aed16a6f5d491eee78aea3db8391dae8b918d9b0c4b8f3244ef9c318a70",
+          "observed_publication": "2026-03-24T16:41:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1323",
+          "raw_sha256": "e065f891013d0b6b9b94e472cf17faa477db59cccc44bab5dc31e0b3dcaf45f8",
+          "observed_publication": "2026-03-25T11:38:17.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1353",
+          "raw_sha256": "eac4f85fc82a0e1fa15e35bf8f3ec42eb1404a0ead139fcaee18e52eb1168c97",
+          "observed_publication": "2026-03-26T16:24:00.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1423",
+          "raw_sha256": "65fb65740b4ce03582fa085c8bdcba04d8181eba885d44aa1be78f409a580927",
+          "observed_publication": "2026-03-30T22:15:15.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1454",
+          "raw_sha256": "50412526221682bdff6396df3955fcce7516a02d6876423c524ffc055d546da2",
+          "observed_publication": "2026-04-01T18:00:01.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1456",
+          "raw_sha256": "3a340c3da056f996815ce51b0065fa064c26232f86a912df6d2071c6be33c161",
+          "observed_publication": "2026-04-01T18:00:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:173",
+          "raw_sha256": "4b8cc88d6d25c83704dbf7576d2e6ad148ef8289198fcbc5f12a1b83aef419f1",
+          "observed_publication": "2026-01-26T13:56:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:2",
+          "raw_sha256": "6a09a7e59e131834e344c0d91ff473498b39d1590d45d576427f79f9d917dfeb",
+          "observed_publication": "2026-01-02T10:47:42.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:200",
+          "raw_sha256": "f75a8b89661b6ea3f3c9d56c8d336dac9076882934b5a2fef4c91cf71b3e2780",
+          "observed_publication": "2026-01-24T11:26:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:203",
+          "raw_sha256": "cb556c1bcf4c46c1176cc8144488f916e6ca989df5281690f6b777ec317b6d35",
+          "observed_publication": "2026-01-23T14:01:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:221",
+          "raw_sha256": "81c63d304c9c1f815a4c21526831b702894640efa280ddf4466c0d92076f5f90",
+          "observed_publication": "2026-01-27T11:21:59.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:327",
+          "raw_sha256": "5691f79ecf5c87159793d6065aa0537eb258d8372a8f73e3c535caaf7d7ff8c2",
+          "observed_publication": "2026-01-31T07:25:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:333",
+          "raw_sha256": "715d0a687dcd235728b4ac3e9bb69d62fac50e96cc74d3f82a3a7ffeebce0ec9",
+          "observed_publication": "2026-02-01T18:20:25.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:347",
+          "raw_sha256": "7a9795dcad115c2022c22323d01257fe29dc824d7c6fd7e0f00e098a817713ca",
+          "observed_publication": "2026-02-02T18:20:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:364",
+          "raw_sha256": "2ed905aef7b2f7cb931030d398b3315c2e47af11447b949a530d50c3afa15804",
+          "observed_publication": "2026-02-03T13:18:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:439",
+          "raw_sha256": "b54c4210ac4abf62ceed9f89e48a8fcab732e09a2ccc0883cc524eb73081f1c2",
+          "observed_publication": "2026-02-05T18:31:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:44",
+          "raw_sha256": "acbc6843dcf024508ed7177c43937f5a97aab2770933c470c9411051b04d46d6",
+          "observed_publication": "2026-01-15T07:49:35.999999",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:45",
+          "raw_sha256": "602a15df4b8b3c65d38179a72df00d27ddd37e2cb1080dc5b76bcd627ef32fc7",
+          "observed_publication": "2026-01-14T14:03:35.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:46",
+          "raw_sha256": "0fcfeee6eaeefeaec2c0d3461b963c022f240323a741ceabd7a64c479d7fcd19",
+          "observed_publication": "2026-01-20T14:54:05",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:48",
+          "raw_sha256": "71aad27420c18eec9b6587ca8fe762f1d172548b44af90d6bd26eb68e7b8043e",
+          "observed_publication": "2026-01-12T17:21:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:483",
+          "raw_sha256": "caff09895e9f3d07b462895a45eb0302abfb8bfbe891e1d05da4b4770819e36f",
+          "observed_publication": "2026-02-08T22:49:50.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:51",
+          "raw_sha256": "a8af760265fb1124e474f20763df619653c42f834128c0bd8cfe4e004520a646",
+          "observed_publication": "2026-01-15T17:12:58.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:512",
+          "raw_sha256": "75e9286af5afe340100a9295f97acf74b53000345b5b5dcdc653761191c8128c",
+          "observed_publication": "2026-02-10T13:03:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:52",
+          "raw_sha256": "5d3ad27b1594b2b658a581c906a6e0e428969b0af27b482caa7d35eeede75968",
+          "observed_publication": "2026-01-13T11:59:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:555",
+          "raw_sha256": "105d137d7c194b974a76168cddab142ccdb3b7012b687259ea005ab18bb6dfd6",
+          "observed_publication": "2026-02-11T10:11:00.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:557",
+          "raw_sha256": "815c9b2bb8719dceb15f9213a1b940d000dd620024b0a69f526488abc582e1d9",
+          "observed_publication": "2026-02-11T15:26:07.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:559",
+          "raw_sha256": "0f78f62da9ead808706b928cdba543fb16174cefc029e49fb80839cac99c30ec",
+          "observed_publication": "2026-02-12T09:49:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:580",
+          "raw_sha256": "8a94b51a35c0e022c29f4ae74b8503482a8dc4f944e56845e158b7ec6ae1d1da",
+          "observed_publication": "2026-02-13T17:22:48.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:581",
+          "raw_sha256": "dbac6a776b87dcfbc2a9eb5b784f994b7cb3ff846218ad89e2cdf3bfb07cb6bb",
+          "observed_publication": "2026-02-14T00:03:05",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:610",
+          "raw_sha256": "335520339ecc0a322e6a686fff76de6b5d06ac6c0b71ec7afb3640cb22871105",
+          "observed_publication": "2026-02-16T00:01:33.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:668",
+          "raw_sha256": "9635d1974b360c9311a3023f627673764ccecb6689c86d3b675ee8952b482dab",
+          "observed_publication": "2026-02-24T08:42:44.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:693",
+          "raw_sha256": "c06b2b6f9eb5508334c4b27208f55b9c3e47115c32af6b57bf7479cfebfe29a1",
+          "observed_publication": "2026-02-25T16:17:14.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:753",
+          "raw_sha256": "0bf4cbf1a09caeb14ab778f3fe6d4245ea85a2866c3ea3b60dbbebf145d0ef38",
+          "observed_publication": "2026-02-28T10:03:02.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:764",
+          "raw_sha256": "6624bb6d79d9cad34f5e0b96dff4d2cf4f61d136fa0e5c72c3ada0d7b84eb73a",
+          "observed_publication": "2026-02-28T19:57:09.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:790",
+          "raw_sha256": "c1efd02ab17028008520f6b430b9cf51da003c4ed47ac787c4a2c9bc78e79037",
+          "observed_publication": "2026-03-01T14:28:12.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:8",
+          "raw_sha256": "43941281608ab2a53e248c1d6ea6a7fc34aa45d9db950a63d55536e449c5f6a3",
+          "observed_publication": "2026-01-11T19:22:56.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:808",
+          "raw_sha256": "6416ac6873fee8eba739c8cfcaaf4388ca0cd4ba7ea70ac038fd6183df40c4bf",
+          "observed_publication": "2026-03-02T20:37:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:844",
+          "raw_sha256": "1f48e7dce40bb8194ece721ee536b52f199a6bf32904089814fd75cf12fa726c",
+          "observed_publication": "2026-03-03T11:54:10.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:885",
+          "raw_sha256": "e3683e03be014f7bbed11a4cb73bd1c8bdb78d6bdc5eef8057862ba537be2a05",
+          "observed_publication": "2026-03-05T09:07:33.000004",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "300750",
+      "company_name": "宁德时代",
+      "industry_code": "630700",
+      "industry_name": "电池",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1017",
+          "raw_sha256": "0c1f9704440f4b01862e2e7595a20c354bd13012e2484f861b7dfb379b6b539f",
+          "observed_publication": "2026-03-10T19:11:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1055",
+          "raw_sha256": "ed21f2b3f6b5b84a5879f1d8d237943f8284585868fa7e5d9615736e810a9838",
+          "observed_publication": "2026-03-11T13:57:59.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1079",
+          "raw_sha256": "74d853a22b09a75240d66058284d71b07bce6c46e0a977af4ad8cbc654f9dd63",
+          "observed_publication": "2026-03-12T19:25:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1144",
+          "raw_sha256": "01ec205bbc9552448a15d62e984687ccc426cf27bdd9b061fded794ddae0e861",
+          "observed_publication": "2026-03-08T17:24:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1218",
+          "raw_sha256": "b79374c27bb4366a1d4f522d9554aeffbb2ffc8771a47d49e3ae6fc27c4c2526",
+          "observed_publication": "2026-03-18T11:39:12.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:123",
+          "raw_sha256": "cef00d41c12cec16c1239df40ec0e1d9578025542616a9e21e6b0a7d6195ec94",
+          "observed_publication": "2026-01-23T00:55:10.000001",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1251",
+          "raw_sha256": "78265b7c63706280ccbce66cf9bd6ff69a41cd74cc2c5dacff356b564fa932a4",
+          "observed_publication": "2026-03-19T22:05:15",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1275",
+          "raw_sha256": "8873e7b431db7c166932dc470cce5a1b01adbd127ced8d60823e7d34f8536270",
+          "observed_publication": "2026-03-20T18:29:59.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1364",
+          "raw_sha256": "9d49f15c558264cefc0afff634e3c8924549d75ddd6a0cc56d6035173e65b027",
+          "observed_publication": "2026-03-26T17:15:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1453",
+          "raw_sha256": "2f1ee2f44aee5c1151492d00f705b9988ccd330975d57447f6b54d77d73f5186",
+          "observed_publication": "2026-04-01T17:12:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1470",
+          "raw_sha256": "49b5b994f1a8a5e5433c33f750ba50c7cc8bbe7360f6a5fc1968eb17006dac8a",
+          "observed_publication": "2026-04-02T15:08:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:157",
+          "raw_sha256": "ae765b35d4c15980c15bd85663cdcd2c705883433a91fbd3cf2b9d1b3972dbf1",
+          "observed_publication": "2026-01-23T21:48:53.999997",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:167",
+          "raw_sha256": "f7128b24db06805fe2fa730d897f5d33d1f4b8f1b6ef33edfc950837a8dca975",
+          "observed_publication": "2026-01-24T17:46:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:192",
+          "raw_sha256": "16bd7d03dc33c1383524e97975503f3e631b734685075bf7d9e853fcd208fe62",
+          "observed_publication": "2026-01-26T15:04:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:312",
+          "raw_sha256": "384750bf3b5ae6a44306aa52282d5cbccafa47590f80feaee10d8edc934530d9",
+          "observed_publication": "2026-01-30T19:43:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:329",
+          "raw_sha256": "b69ca0b9d7536103d01f6acbd16119c7ebaffbfa1b18a70b8015b06aef8d7c3b",
+          "observed_publication": "2026-01-31T10:11:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:384",
+          "raw_sha256": "344e543e2aba4607a77536d6d2c16c0ac8aa85f3c4ce930e52df4a90f7ca7c93",
+          "observed_publication": "2026-02-03T17:46:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:393",
+          "raw_sha256": "cdb33d1a9e8edaf13dbca486a15746b7216769897766086ba1e9a3b2c36af26c",
+          "observed_publication": "2026-02-04T22:29:10",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:411",
+          "raw_sha256": "5d6ed0687bee47ce8bc93375c076a767b23e17d8603171c800a5b1759bbe376e",
+          "observed_publication": "2026-02-04T10:31:57.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:427",
+          "raw_sha256": "bb279fe9b6d954666824c4a81e2be702a0bdaef1c685b3c021a935b8e41b406e",
+          "observed_publication": "2026-02-05T17:50:34.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:478",
+          "raw_sha256": "3297951da881e06146ac9c5412324d52d6649c81d0e0c5d97eea3df375c19d8c",
+          "observed_publication": "2026-02-07T10:27:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:489",
+          "raw_sha256": "bab1b331230428801561bce26309746f2c07b3e9ea79410ccd32e90edb1bd34c",
+          "observed_publication": "2026-02-06T18:13:59.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:551",
+          "raw_sha256": "3ef5ca3bfd1e2cb03a68a74974d3878ef0a3ec8980e6d30e62aab77d0ca7bf75",
+          "observed_publication": "2026-02-11T07:21:00",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:604",
+          "raw_sha256": "a05369a02ddf2b11f87c761f744211cb5179b642f96ceb4984d761d7f93f1a94",
+          "observed_publication": "2026-02-14T11:51:48.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:629",
+          "raw_sha256": "115e0d0d692e31079d7884b8a9df6566d6e5b2b80530b8a66ba2be9bafd76998",
+          "observed_publication": "2026-02-18T21:30:15.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:635",
+          "raw_sha256": "23d45032b4d3380450438f9f8815d08cabbb098add8da560dd46634a42aa44a0",
+          "observed_publication": "2026-02-19T10:11:00.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:643",
+          "raw_sha256": "ca82a98ef7473e171ec8e3ab8ed5b943a15028185f0fa991e1e1754208ef6683",
+          "observed_publication": "2026-02-20T10:00:00.000003",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:697",
+          "raw_sha256": "0fc7c2e77d8e6d1ae24b9dcf849eb6685fddeb679f5c9861d194b5f8e6c5dc9f",
+          "observed_publication": "2026-02-25T19:32:12.999996",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:803",
+          "raw_sha256": "a0a6802a1dc2f4f5ed2e60384c735daca6c844f531eb28b586a26ef7acb10bb1",
+          "observed_publication": "2026-03-02T10:15:34.999998",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:916",
+          "raw_sha256": "861cce3b3ddc10faf98d367f27c89a8c16999b380098e898563800442af3fd29",
+          "observed_publication": "2026-03-05T21:56:47.999996",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    },
+    {
+      "company_code": "603778",
+      "company_name": "国晟科技",
+      "industry_code": "620300",
+      "industry_name": "基础建设",
+      "sources": [
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1222",
+          "raw_sha256": "e3e02a17ab739ba622cfae705d4de4e9672f04bc41cce50d5cfa0f0dfaa405bd",
+          "observed_publication": "2026-03-18T10:35:20",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:1427",
+          "raw_sha256": "9d5838c859613924032d88760bb83f75c6e6fe27809900813b9e03684a386875",
+          "observed_publication": "2026-03-31T09:49:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:58",
+          "raw_sha256": "2fbe6a6c7e7893b8bf1c4ad992a3df7b3a0835d005395f205c9f5086980f015c",
+          "observed_publication": "2026-01-19T12:00:52.000004",
+          "split": "train",
+          "guard": "allowed"
+        },
+        {
+          "source_row": "ea66f4b5fac1b1ce226fbe213b0a98438bc61bd4a8a9740b6275caeac1a4d063:个股新闻:841",
+          "raw_sha256": "2fddc302724b8f094af859bef7a42ea121fab2a45a62236579129a2f9cb0f9bf",
+          "observed_publication": "2026-03-04T00:58:00.000002",
+          "split": "train",
+          "guard": "allowed"
+        }
+      ]
+    }
+  ],
+  "available_at": "2026-10-06T14:23:39.076643+00:00"
+}

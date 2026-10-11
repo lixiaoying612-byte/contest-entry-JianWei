@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self' file:; style-src 'self' file: 'unsafe-inline'; img-src 'self' file: data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="theme-color" content="#172e4b">
+  <title>见微 · 事件智能研判平台</title>
+  <link rel="icon" href="assets/brand.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="mock.js" defer></script>
+  <script src="runtime.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到主要内容</a>
+  <aside class="sidebar" aria-label="主导航">
+    <a class="brand" href="#/radar"><img src="assets/brand.svg" alt=""><span><strong>见微</strong><small>资本市场事件智能平台</small></span></a>
+    <div class="nav-caption">研 究 工 作 台</div>
+    <nav id="navigation"></nav>
+    <div class="nav-divider"></div>
+    <button class="nav-item" data-action="config" aria-label="数据与规则"><span data-icon="database"></span><span>数据与规则</span></button>
+    <button class="nav-item" data-action="settings" aria-label="系统设置"><span data-icon="settings"></span><span>系统设置</span></button>
+    <div class="sidebar-mountains" aria-hidden="true"></div>
+    <div class="sidebar-quote">用 数 据 洞 见 风 险<br>以 智 能 护 航 决 策<span>JIANWEI · RESEARCH</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <label class="global-search"><span data-icon="search"></span><input id="global-search" type="search" placeholder="搜索个股 / 行业 / 代码 / 事件…" aria-label="搜索个股、行业、代码或事件"><kbd>Enter ↵</kbd></label>
+      <div class="top-actions"><button class="demo-badge" data-action="config" aria-label="打开演示控制"><i></i><span id="demo-state-label">演示数据</span></button><button class="market-button" data-action="market">A 股<span data-icon="chevron"></span></button><button class="notification-button" data-action="notifications" aria-label="查看通知"><span data-icon="bell"></span><b id="notification-count">0</b></button><span class="top-divider"></span><button class="account" data-action="account"><span class="avatar">研</span><span><strong>张研究员</strong><small>见微研究中心</small></span><span data-icon="chevron"></span></button></div>
+    </header>
+    <main id="main" tabindex="-1"><div class="loading">正在载入演示工作台…</div></main>
+    <footer class="footer"><span>演示时点：2026-09-12 14:30 <b>｜</b> 全部个股、行业、材料与判断均为虚构演示数据</span><span><i class="online-dot"></i>本地演示运行正常</span></footer>
+  </div>
+  <dialog id="drawer" class="drawer" aria-labelledby="drawer-title"><div class="drawer-heading"><div><span class="eyebrow">见微 · 演示工作台</span><h2 id="drawer-title"></h2></div><button class="icon-button" data-action="close-drawer" aria-label="关闭面板"><span data-icon="close"></span></button></div><div id="drawer-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

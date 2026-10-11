@@ -1,0 +1,12 @@
+{
+  "file_inventory": [
+    {
+      "file": "事件类型_标的.json",
+      "sha256": "06d7c747f879913dfd5eb1d8e9356ba7eec8a4449145211c0ebf5742f52eeb4a"
+    },
+    {
+      "file": "事件类型_行业.json",
+      "sha256": "95b66eddf770f903ef48c79bf632a14c75147004149185a22229bc0fe67bf01d"
+    }
+  ]
+}

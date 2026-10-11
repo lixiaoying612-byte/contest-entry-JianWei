@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENG008 A input",
+  "type": "object",
+  "properties": {
+    "document": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publication_time": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "text": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "\\S"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "title",
+        "publication_time",
+        "source",
+        "text"
+      ],
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "properties": {
+            "title": {
+              "type": "string",
+              "pattern": "\\S"
+            }
+          }
+        },
+        {
+          "properties": {
+            "text": {
+              "type": "string",
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "candidate_definitions": {
+      "type": "array",
+      "const": []
+    }
+  },
+  "required": [
+    "document",
+    "candidate_definitions"
+  ],
+  "additionalProperties": false
+}

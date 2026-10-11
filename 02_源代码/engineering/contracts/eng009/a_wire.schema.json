@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENG009 compact A v1",
+  "type": "object",
+  "properties": {
+    "e": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "s": {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "p": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[TB][1-9][0-9]*$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                }
+              ],
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "st": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "\\S"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              {
+                "type": "string",
+                "enum": [
+                  "+",
+                  "-",
+                  "?"
+                ]
+              },
+              {
+                "type": "string",
+                "enum": [
+                  "a",
+                  "p",
+                  "f",
+                  "c",
+                  "q",
+                  "u"
+                ]
+              },
+              {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "\\S"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              {
+                "type": "string",
+                "enum": [
+                  "f",
+                  "b",
+                  "u"
+                ]
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[TB][1-9][0-9]*$"
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            ],
+            "minItems": 6,
+            "maxItems": 6
+          },
+          "t": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "o",
+                    "e",
+                    "d",
+                    "v",
+                    "u"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "\\S"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "y",
+                    "m",
+                    "d",
+                    "dt",
+                    "i",
+                    "r",
+                    "u"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "e",
+                    "d",
+                    "p",
+                    "u"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[TB][1-9][0-9]*$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                }
+              ],
+              "minItems": 6,
+              "maxItems": 6
+            }
+          },
+          "d": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[TB][1-9][0-9]*$"
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                }
+              ],
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "im": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "+",
+                    "-",
+                    "0",
+                    "m",
+                    "?"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "a",
+                    "p",
+                    "f",
+                    "c",
+                    "q",
+                    "u"
+                  ]
+                },
+                {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "\\S"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                {
+                  "type": "string",
+                  "pattern": "^[TB][1-9][0-9]*$"
+                }
+              ],
+              "minItems": 5,
+              "maxItems": 5
+            }
+          },
+          "q": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[TB][1-9][0-9]*$"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "u": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "\\S"
+            }
+          }
+        },
+        "required": [
+          "s",
+          "st",
+          "q"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "n": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "type": "string",
+            "enum": [
+              "no_financial_mention",
+              "input_limited",
+              "conflicting_statements",
+              "other"
+            ]
+          },
+          {
+            "type": "string",
+            "pattern": "\\S"
+          }
+        ],
+        "minItems": 2,
+        "maxItems": 2
+      }
+    }
+  },
+  "required": [
+    "e"
+  ],
+  "additionalProperties": false
+}

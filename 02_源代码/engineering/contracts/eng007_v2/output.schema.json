@@ -1,0 +1,428 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENG-007 v2 model output",
+  "type": "object",
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "summary": {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "participants": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "role": {
+                  "type": "string",
+                  "pattern": "\\S"
+                }
+              },
+              "required": [
+                "name",
+                "role"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "status": {
+            "type": "object",
+            "properties": {
+              "phase": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "\\S"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "polarity": {
+                "type": "string",
+                "enum": [
+                  "affirmed",
+                  "negated",
+                  "unclear"
+                ]
+              },
+              "mode": {
+                "type": "string",
+                "enum": [
+                  "asserted",
+                  "planned",
+                  "forecast",
+                  "conditional",
+                  "question",
+                  "unclear"
+                ]
+              },
+              "attributed_to": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "\\S"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "context": {
+                "type": "string",
+                "enum": [
+                  "focus",
+                  "background",
+                  "unclear"
+                ]
+              }
+            },
+            "required": [
+              "phase",
+              "polarity",
+              "mode",
+              "attributed_to",
+              "context"
+            ],
+            "additionalProperties": false
+          },
+          "times": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "role": {
+                  "type": "string",
+                  "enum": [
+                    "occurrence",
+                    "effective",
+                    "deadline",
+                    "observation",
+                    "unspecified"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "normalized": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "\\S"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "precision": {
+                  "type": "string",
+                  "enum": [
+                    "year",
+                    "month",
+                    "day",
+                    "datetime",
+                    "interval",
+                    "relative",
+                    "unknown"
+                  ]
+                },
+                "basis": {
+                  "type": "string",
+                  "enum": [
+                    "explicit",
+                    "document_context",
+                    "publication_time",
+                    "unresolved"
+                  ]
+                }
+              },
+              "required": [
+                "role",
+                "text",
+                "normalized",
+                "precision",
+                "basis"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "value_text": {
+                  "type": "string",
+                  "pattern": "\\S"
+                }
+              },
+              "required": [
+                "name",
+                "value_text"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "matches": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "definition_id": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "decision": {
+                  "type": "string",
+                  "enum": [
+                    "matched",
+                    "possible"
+                  ]
+                },
+                "basis": {
+                  "type": "string",
+                  "enum": [
+                    "direct_text",
+                    "definition_mediated"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "definition_quote": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "\\S"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "definition_id",
+                "decision",
+                "basis",
+                "reason",
+                "evidence_refs",
+                "definition_quote"
+              ],
+              "additionalProperties": false,
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "basis": {
+                        "const": "direct_text"
+                      }
+                    }
+                  },
+                  "then": {
+                    "properties": {
+                      "definition_quote": {
+                        "type": "null"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if": {
+                    "properties": {
+                      "basis": {
+                        "const": "definition_mediated"
+                      }
+                    }
+                  },
+                  "then": {
+                    "properties": {
+                      "definition_quote": {
+                        "type": "string",
+                        "pattern": "\\S"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "impact_mentions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "target_name": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "direction": {
+                  "type": "string",
+                  "enum": [
+                    "positive",
+                    "negative",
+                    "neutral",
+                    "mixed",
+                    "unclear"
+                  ]
+                },
+                "mode": {
+                  "type": "string",
+                  "enum": [
+                    "asserted",
+                    "planned",
+                    "forecast",
+                    "conditional",
+                    "question",
+                    "unclear"
+                  ]
+                },
+                "attributed_to": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "\\S"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "quote": {
+                  "type": "object",
+                  "properties": {
+                    "section": {
+                      "type": "string",
+                      "enum": [
+                        "title",
+                        "body"
+                      ]
+                    },
+                    "quote": {
+                      "type": "string",
+                      "pattern": "\\S"
+                    }
+                  },
+                  "required": [
+                    "section",
+                    "quote"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "target_name",
+                "direction",
+                "mode",
+                "attributed_to",
+                "quote"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "evidence_quotes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "section": {
+                  "type": "string",
+                  "enum": [
+                    "title",
+                    "body"
+                  ]
+                },
+                "quote": {
+                  "type": "string",
+                  "pattern": "\\S"
+                }
+              },
+              "required": [
+                "section",
+                "quote"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "uncertainties": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "\\S"
+            }
+          }
+        },
+        "required": [
+          "summary",
+          "participants",
+          "status",
+          "times",
+          "details",
+          "matches",
+          "impact_mentions",
+          "evidence_quotes",
+          "uncertainties"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "document_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "enum": [
+              "no_financial_mention",
+              "input_limited",
+              "definitions_unmatched",
+              "conflicting_statements",
+              "other"
+            ]
+          },
+          "message": {
+            "type": "string",
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "code",
+          "message"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "events",
+    "document_notes"
+  ],
+  "additionalProperties": false
+}

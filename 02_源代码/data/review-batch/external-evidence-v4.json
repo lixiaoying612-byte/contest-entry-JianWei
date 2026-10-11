@@ -1,0 +1,40 @@
+{
+  "jiulian": {
+    "url": "https://paper.cnstock.com/html/2026-01/10/content_2168677.htm",
+    "title": "九联科技关于终止筹划重大资产重组的公告",
+    "published": "2026-01-10",
+    "kind": "primary_disclosure",
+    "quote": "终止本次重大资产重组交易事项",
+    "checked_at": "2026-09-27",
+    "scope": "公告编号2026-001；成都能通科技51%股权；不将终止解释为先前计划虚假"
+  },
+  "audi": {
+    "url": "https://www.yicai.com/news/103091186.html",
+    "title": "奥迪全球CEO否认南北奥迪合并，与上汽探讨深化合作已有进展",
+    "published": "2026-03-17T22:22:17+08:00",
+    "kind": "direct_interview",
+    "quote": "将坚持现有双合作伙伴战略",
+    "checked_at": "2026-09-27",
+    "scope": "记者直接采访，支持CEO作出回应，不证明未来不会合并"
+  },
+  "shr1918": {
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=11969595&stockid=600276",
+    "title": "恒瑞医药关于药品上市许可申请获受理并纳入优先审评程序的提示性公告",
+    "published": "2026-02-25",
+    "kind": "traceable_record",
+    "quote": "且已被纳入优先审评程序",
+    "checked_at": "2026-09-27",
+    "scope": "可追溯公告全文转载，尚未核到交易所原件，不升为已核原始文件；页面公告日期2月25日，不倒填证据可用日期。",
+    "document_signed_date": "2026-02-24"
+  },
+  "huo": {
+    "url": "https://www.nbd.com.cn/articles/2026-03-11/4288153.html",
+    "title": "每日经济新闻对《霍去病》导演杨涵涵的直接采访",
+    "published": "2026-03-11",
+    "kind": "direct_interview",
+    "quote": "制作确实只有三人参与",
+    "checked_at": "2026-09-27",
+    "scope": "记者于3月8日晚直接采访：平台积分折算成本、公司20多人而具体项目3人、仅两个短片版本；不能据此独立验证播放量或生产账本。",
+    "retrieval": "网页正文直接读取；搜索打开超时后使用公开同URL读取，未绕过登录或付费限制"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": "eng022-priority-v1",
+  "formal_alerts_enabled": false,
+  "external_notifications": false,
+  "dimensions": {
+    "scope": "limited: identified single operating object; broad: evidenced wider affected scope; unknown: scope unsupported",
+    "materiality": "minor: bounded marginal consequence with basis; substantive: evidenced operating/fulfillment consequence and comparison; unknown: magnitude or baseline insufficient",
+    "urgency": "near_term: identified imminent trigger; long_term: identified later horizon; unknown: no timing basis"
+  },
+  "high": "All dimensions known, substantive operating mechanism, explicit comparison basis and necessary conditions; scale alone or promotional adjectives never suffice.",
+  "medium": "Known dimensions and an explained operating mechanism of meaningful but bounded extent; no claim of calibrated return.",
+  "low": "Known dimensions and explained limited marginal consequences; unknown information must not default to low.",
+  "unknown": "Scope/materiality/timing or mechanism lacks evidence; retain explicit gaps.",
+  "routing": "Valid high -> important_pending_review with unverified premise; explained medium/low with known dimensions -> ordinary_tracking; unknown or missing dimensions/mechanism -> insufficient_information. Invalid high remains invalid_pending_review, not credible alert.",
+  "limits": "Model proposals only; checks establish references and structural prerequisites, not semantic grade accuracy. Support count is not truth, impact, or independent-source evidence."
+}

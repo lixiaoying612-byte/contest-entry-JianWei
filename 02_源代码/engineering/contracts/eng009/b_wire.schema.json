@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENG009 compact B v1",
+  "type": "object",
+  "properties": {
+    "m": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "type": "integer",
+            "minimum": 0
+          },
+          {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          {
+            "type": "string",
+            "enum": [
+              "m",
+              "p"
+            ]
+          },
+          {
+            "type": "string",
+            "enum": [
+              "d",
+              "i"
+            ]
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[TB][1-9][0-9]*$"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "\\S"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          {
+            "type": "string",
+            "pattern": "\\S"
+          }
+        ],
+        "minItems": 7,
+        "maxItems": 7
+      }
+    },
+    "n": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "type": "integer",
+            "minimum": 0
+          },
+          {
+            "type": "string",
+            "enum": [
+              "no_candidate",
+              "no_target",
+              "insufficient",
+              "not_applicable"
+            ]
+          }
+        ],
+        "minItems": 2,
+        "maxItems": 2
+      }
+    }
+  },
+  "required": [
+    "m",
+    "n"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ENG008 B monitoring matches v1",
+  "type": "object",
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "mention_ref": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "matches": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "definition_id": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "decision": {
+                  "type": "string",
+                  "enum": [
+                    "matched",
+                    "possible"
+                  ]
+                },
+                "basis": {
+                  "type": "string",
+                  "enum": [
+                    "direct_text",
+                    "definition_mediated"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "definition_quote": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "\\S"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "definition_id",
+                "decision",
+                "basis",
+                "reason",
+                "evidence_refs",
+                "definition_quote"
+              ],
+              "additionalProperties": false,
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "basis": {
+                        "const": "direct_text"
+                      }
+                    }
+                  },
+                  "then": {
+                    "properties": {
+                      "definition_quote": {
+                        "type": "null"
+                      }
+                    }
+                  }
+                },
+                {
+                  "if": {
+                    "properties": {
+                      "basis": {
+                        "const": "definition_mediated"
+                      }
+                    }
+                  },
+                  "then": {
+                    "properties": {
+                      "definition_quote": {
+                        "type": "string",
+                        "pattern": "\\S"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "unmatched_reason": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "\\S"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "mention_ref",
+          "matches",
+          "unmatched_reason"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "results"
+  ],
+  "additionalProperties": false
+}

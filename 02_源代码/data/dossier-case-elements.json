@@ -1,0 +1,144 @@
+[
+  {
+    "contract_revision": "dossier-elements-20261004-v1",
+    "event_id": "case-event:5b3cfba030c5574d066fca93459aa025954cf8fdff1bebaf66373bb84e11aaa7",
+    "base_body_sha256": "8fe04caf98e99978a196f8a92e541c56c5f74c87ffd4076f3510e4b75a2a9bdf",
+    "base_event_version": 1,
+    "source_rows": [
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:77226318076788",
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:198694972361466"
+    ],
+    "inputs": [
+      {
+        "source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:77226318076788",
+        "document_sha": "a7eaf79d04f6c022700e082e1b4285ded29450900ae286e8e7d2677dcaf76b16",
+        "raw_answer": "{\"a\": {\"events\": [{\"summary\": \"苏州盛迪亚获注射用SHR-5421临床试验批准，拟开展多发性骨髓瘤临床研究；不代表疗效或上市获批。\", \"participants\": [{\"name\": \"苏州盛迪亚生物医药有限公司\", \"role\": \"临床试验申请方\", \"evidence_refs\": [\"B1\"]}, {\"name\": \"国家药监局\", \"role\": \"临床试验批准机关\", \"evidence_refs\": [\"B1\"]}], \"status\": {\"phase\": null, \"polarity\": \"unclear\", \"mode\": \"unclear\", \"attributed_to\": null, \"context\": \"focus\", \"evidence_refs\": [\"B1\"]}, \"times\": [], \"details\": [], \"evidence_refs\": [\"B1\"], \"uncertainties\": [\"另一篇转载将批准接收方简称为恒瑞医药；本次按明确写出子公司全名的材料记录直接主体，仍未核对原始监管通知。\"]}]}, \"b\": {}}"
+      }
+    ],
+    "primary_source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:77226318076788",
+    "reviewed_at": "2026-10-04T04:11:43.919959+00:00",
+    "reason": "逐一复核主体直接角色和原文依据；主体与影响对象分开，未改变评分、影响等级及业务阶段。",
+    "case_id": "hengrui",
+    "case_event": "shr5421",
+    "case_material": "train-47613"
+  },
+  {
+    "contract_revision": "dossier-elements-20261004-v1",
+    "event_id": "case-event:dbf19bdd54345a5c3d2c97c3310400a9223ae4c8defe70fa0dcf53badc01db73",
+    "base_body_sha256": "42308fe9de3b729fa8aeab5e58d70d5daed4aa23fe34bdb136b434ed8e403e4b",
+    "base_event_version": 1,
+    "source_rows": [
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:1114217013068"
+    ],
+    "inputs": [
+      {
+        "source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:1114217013068",
+        "document_sha": "29f410446e8ddf58d8241de270b1f62fd138420cc9a04f9757d88a6d126b0ed1",
+        "raw_answer": "{\"a\": {\"events\": [{\"summary\": \"成都盛迪医药获HRS-1635片临床试验批准，拟开展B细胞恶性肿瘤临床研究；试验结果尚未确定。\", \"participants\": [{\"name\": \"成都盛迪医药有限公司\", \"role\": \"临床试验申请方\", \"evidence_refs\": [\"B2\"]}, {\"name\": \"国家药监局\", \"role\": \"临床试验批准机关\", \"evidence_refs\": [\"B2\"]}], \"status\": {\"phase\": null, \"polarity\": \"unclear\", \"mode\": \"unclear\", \"attributed_to\": null, \"context\": \"focus\", \"evidence_refs\": [\"B1\"]}, \"times\": [], \"details\": [], \"evidence_refs\": [\"B1\", \"B2\"], \"uncertainties\": []}]}, \"b\": {}}"
+      }
+    ],
+    "primary_source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:1114217013068",
+    "reviewed_at": "2026-10-04T04:11:43.919959+00:00",
+    "reason": "HRS-1635与SHR-5421药物身份不同，原有独立归档依据保留；摘要改为成都盛迪获批研究的事实。",
+    "case_id": "hengrui",
+    "case_event": "hrs1635",
+    "case_material": "train-101112"
+  },
+  {
+    "contract_revision": "dossier-elements-20261004-v1",
+    "event_id": "case-event:a17818a01bcf91f42721c3418c608edd9045f26620ca317033817ccbf1a9ef2d",
+    "base_body_sha256": "0839eb16e19c4f233d550f7f5a2dad56ca3fcc1ac02871c33bac85af3ef413da",
+    "base_event_version": 2,
+    "source_rows": [
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:91801749858546",
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:139238367462999"
+    ],
+    "inputs": [
+      {
+        "source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:91801749858546",
+        "document_sha": "9708960c0498dbb4cc8e547fa741d12d6dabc17f72e3b6be3eca66d9756d12c4",
+        "raw_answer": "{\"a\": {\"events\": [{\"summary\": \"Mt Marion披露地下开发及浮选扩建投资安排；建设和产能提升仍属计划。\", \"participants\": [{\"name\": \"MinRes\", \"role\": \"投资安排披露及项目推进方\", \"evidence_refs\": [\"B10\"]}, {\"name\": \"Ganfeng\", \"role\": \"项目合作方\", \"evidence_refs\": [\"B12\"]}], \"status\": {\"phase\": null, \"polarity\": \"unclear\", \"mode\": \"unclear\", \"attributed_to\": null, \"context\": \"focus\", \"evidence_refs\": [\"B1\"]}, \"times\": [], \"details\": [], \"evidence_refs\": [\"B1\", \"B10\", \"B12\"], \"uncertainties\": []}]}, \"b\": {}}"
+      }
+    ],
+    "primary_source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:91801749858546",
+    "reviewed_at": "2026-10-04T04:11:43.919959+00:00",
+    "reason": "逐一复核主体直接角色和原文依据；主体与影响对象分开，未改变评分、影响等级及业务阶段。",
+    "case_id": "mt-marion",
+    "case_event": "mt-marion",
+    "case_material": "mt-fid"
+  },
+  {
+    "contract_revision": "dossier-elements-20261004-v1",
+    "event_id": "case-event:a17818a01bcf91f42721c3418c608edd9045f26620ca317033817ccbf1a9ef2d",
+    "base_body_sha256": "0839eb16e19c4f233d550f7f5a2dad56ca3fcc1ac02871c33bac85af3ef413da",
+    "base_event_version": 2,
+    "source_rows": [
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:91801749858546",
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:139238367462999"
+    ],
+    "inputs": [
+      {
+        "source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:139238367462999",
+        "document_sha": "ff49959f5ca76d12905cc3191f50c915ef9792b876eeab23678d6d6f7d8a5328",
+        "raw_answer": "{\"a\": {\"events\": [{\"summary\": \"Macmahon已获任命为地下采矿承包商，项目由投资安排推进至承包商落实；地下开发和投产仍为预期。\", \"participants\": [{\"name\": \"MinRes\", \"role\": \"任命方\", \"evidence_refs\": [\"T1\"]}, {\"name\": \"Macmahon\", \"role\": \"获任命的地下采矿承包商\", \"evidence_refs\": [\"T1\"]}, {\"name\": \"Jiangxi Ganfeng Lithium\", \"role\": \"项目合作方\", \"evidence_refs\": [\"B9\"]}], \"status\": {\"phase\": null, \"polarity\": \"unclear\", \"mode\": \"unclear\", \"attributed_to\": null, \"context\": \"focus\", \"evidence_refs\": [\"B1\"]}, \"times\": [], \"details\": [], \"evidence_refs\": [\"B1\", \"T1\", \"B9\"], \"uncertainties\": []}]}, \"b\": {}}"
+      }
+    ],
+    "primary_source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:139238367462999",
+    "reviewed_at": "2026-10-04T04:11:43.919959+00:00",
+    "reason": "逐一复核主体直接角色和原文依据；主体与影响对象分开，未改变评分、影响等级及业务阶段。",
+    "case_id": "mt-marion",
+    "case_event": "mt-marion",
+    "case_material": "mt-contractor"
+  },
+  {
+    "contract_revision": "dossier-elements-20261004-v1",
+    "event_id": "case-event:01f9fdd2821a3f2d923af9b27cce5371b7695e686605482ea0684bfb0419e047",
+    "base_body_sha256": "0f67aa7bb58865d29b0640c4cca04624e01be493e0ff53b198a5330095a66b51",
+    "base_event_version": 2,
+    "source_rows": [
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:4265509003373",
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:27767000888483"
+    ],
+    "inputs": [
+      {
+        "source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:4265509003373",
+        "document_sha": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6",
+        "raw_answer": "{\"a\": {\"events\": [{\"summary\": \"蓝电科技拟增资，涉及赛力斯、问鼎投资等多个主体；不能当作全部资金已经到账。\", \"participants\": [{\"name\": \"重庆蓝电科技有限公司\", \"role\": \"拟接受增资的公司\", \"evidence_refs\": [\"B2\"]}, {\"name\": \"赛力斯汽车（湖北）有限公司\", \"role\": \"协议签署方及原股东方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"重庆沙磁致远新能源科技合伙企业（有限合伙）\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"重庆岳行嘉升企业管理合伙企业（有限合伙）\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"问鼎投资\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"博俊科技\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"星宇股份\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}], \"status\": {\"phase\": null, \"polarity\": \"unclear\", \"mode\": \"unclear\", \"attributed_to\": null, \"context\": \"focus\", \"evidence_refs\": [\"B2\"]}, \"times\": [], \"details\": [], \"evidence_refs\": [\"B2\", \"B9\"], \"uncertainties\": []}]}, \"b\": {}}"
+      }
+    ],
+    "primary_source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:4265509003373",
+    "reviewed_at": "2026-10-04T04:11:43.919959+00:00",
+    "reason": "逐一记录拟增资公司、协议签署方及各拟增资方；签订协议不证明出资到账，原文母子公司关系保留。",
+    "case_id": "blue",
+    "case_event": "blue",
+    "case_material": "train-5093"
+  },
+  {
+    "contract_revision": "dossier-elements-20261004-v1",
+    "event_id": "case-event:01f9fdd2821a3f2d923af9b27cce5371b7695e686605482ea0684bfb0419e047",
+    "base_body_sha256": "0f67aa7bb58865d29b0640c4cca04624e01be493e0ff53b198a5330095a66b51",
+    "base_event_version": 2,
+    "source_rows": [
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:4265509003373",
+      "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:27767000888483"
+    ],
+    "inputs": [
+      {
+        "source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:4265509003373",
+        "document_sha": "0e248a68a53124a22d4e4f3b34b605f3527ffa28b555d500bfb0cdd0be7575b6",
+        "raw_answer": "{\"a\": {\"events\": [{\"summary\": \"博俊披露蓝电科技已完成工商变更并更名为重庆赛豆科技有限公司；出资到账及最终财务影响仍待核。\", \"participants\": [{\"name\": \"赛力斯汽车（湖北）有限公司\", \"role\": \"协议签署方及原股东方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"重庆沙磁致远新能源科技合伙企业（有限合伙）\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"重庆岳行嘉升企业管理合伙企业（有限合伙）\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"问鼎投资\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"博俊科技\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}, {\"name\": \"星宇股份\", \"role\": \"拟增资方\", \"evidence_refs\": [\"B9\"]}], \"status\": {\"phase\": null, \"polarity\": \"unclear\", \"mode\": \"unclear\", \"attributed_to\": null, \"context\": \"focus\", \"evidence_refs\": [\"B1\"]}, \"times\": [], \"details\": [], \"evidence_refs\": [\"B1\", \"B9\"], \"uncertainties\": []}]}, \"b\": {}}"
+      },
+      {
+        "source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:27767000888483",
+        "document_sha": "c13dd074658d25024548edca8416da7f695259918129980d07d7e64148c88a4c",
+        "raw_answer": "{\"a\": {\"events\": [{\"summary\": \"博俊披露蓝电科技已完成工商变更并更名为重庆赛豆科技有限公司；出资到账及最终财务影响仍待核。\", \"participants\": [{\"name\": \"重庆赛豆科技有限公司\", \"role\": \"完成更名登记的受增资公司（原蓝电科技）\", \"evidence_refs\": [\"B86\"]}], \"status\": {\"phase\": null, \"polarity\": \"unclear\", \"mode\": \"unclear\", \"attributed_to\": null, \"context\": \"focus\", \"evidence_refs\": [\"B85\"]}, \"times\": [], \"details\": [], \"evidence_refs\": [\"B85\", \"B86\"], \"uncertainties\": []}]}, \"b\": {}}"
+      }
+    ],
+    "primary_source_row": "case:6c58632a7ba81ca267a2f7735346970335a92a929b0a4251feee689d991624cd:case:27767000888483",
+    "reviewed_at": "2026-10-04T04:11:43.919959+00:00",
+    "reason": "登记更名属于已有阶段；逐一列出受增资公司和协议参与方，母公司不替换实际投资方，登记不证明资金全部到账。",
+    "case_id": "blue",
+    "case_event": "blue",
+    "case_material": "bojun"
+  }
+]

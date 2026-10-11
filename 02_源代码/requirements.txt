@@ -1,0 +1,4 @@
+# Versions bundled and checked in the Windows runnable prototype.
+psutil==7.2.2
+numpy==2.5.3
+bm25s==0.3.11

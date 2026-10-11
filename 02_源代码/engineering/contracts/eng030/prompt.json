@@ -1,0 +1,13 @@
+{
+  "version": "eng030-event-granularity-v1",
+  "instructions": [
+    {
+      "path": "granularity.txt",
+      "sha256": "8bb5d41c1db2a0169ea55a377bdcb97862dacca3540f2f13416a9d237b647bc8"
+    },
+    {
+      "path": "../eng029/block_instruction.txt",
+      "sha256": "79e72cba2f0df3987bb9e4052ced54cff6fc137b90458f5290d37a27252e6422"
+    }
+  ]
+}

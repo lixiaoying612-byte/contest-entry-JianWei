@@ -1,0 +1,10 @@
+{
+  "checked_date": "2026-09-23",
+  "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "verification": "Official Chinese pricing search snapshot; direct open timed out. Peak uncached rates used throughout as conservative upper estimate.",
+  "currency": "CNY",
+  "model": "deepseek-flash",
+  "input_per_million": 2,
+  "output_per_million": 8,
+  "accounting": "conservative estimate, not provider invoice"
+}
